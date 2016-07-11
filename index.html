@@ -491,7 +491,7 @@
     </footer>
     <!-- main-footer -->
     
-    <a href="#" class="scrollup"></a>
+    <a href="#" class="backtotopbutton"></a>
     
     <!--  Scripts
     ================================================== -->
@@ -524,6 +524,25 @@
         ga('create', 'UA-80312632-1', 'auto');
         ga('send', 'pageview');
     </script>
+    <!-- Back to top animation  -->
+    <script>
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                if ($(this).scrollTop() >= 550) {
+                    $('.backtotopbutton').fadeIn();
+                } else {
+                    $('.backtotopbutton').fadeOut();
+                }
+            });
+            $('.backtotopbutton').click(function () {
+                $("html, body").animate({
+                    scrollTop: 0
+                }, 600);
+                return false;
+            });
+        });
+    </script>
+
 </body>
 
 </html>

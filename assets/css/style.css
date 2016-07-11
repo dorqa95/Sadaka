@@ -898,9 +898,9 @@ form .alert {
 }
 
 
-/* Medium devices (desktops, 992px and Donw) */
+/* Medium devices (desktops, 1172px and Down) */
 
-@media (max-width: 992px) {
+@media (max-width: 1172px) {
     .carousel-home .carousel-title {
         font-size: 36px;
     }
@@ -908,7 +908,7 @@ form .alert {
         font-size: 18px;
     }
     .carousel-home .btn {
-        margin-top: 15px;
+        margin-top: 0px;
     }
     .about-us-col {
         margin-bottom: 25px;
@@ -925,9 +925,9 @@ form .alert {
 }
 
 
-/* Small devices (tablets, 768px and Down) */
+/* Small devices (tablets, 867px and Down) */
 
-@media (max-width: 768px) {
+@media (max-width: 867px) {
     .header-contact {
         text-align: center;
     }
@@ -963,7 +963,7 @@ form .alert {
         border-top-color: #1f76bd;
     }
     .carousel-home .carousel-title {
-        font-size: 32px;
+        font-size: 28px;
     }
     .carousel-home .carousel-subtitle {
         font-size: 16px;
@@ -985,16 +985,17 @@ form .alert {
 }
 
 
-/* Extra Small devices (tablets, 480px and Down) */
+/* Extra Small devices (tablets, 768px and Down) */
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
     .carousel-home .carousel-title {
-        font-size: 16px;
+        font-size: 24px;
         margin: 0;
     }
     .carousel-home .carousel-subtitle {
         font-size: 14px;
         margin: 0;
+        padding-top: 5px;
     }
     .carousel-home .carousel-indicators {
         bottom: 0;
@@ -1220,16 +1221,13 @@ form .alert {
     animation-name: zoomIn;
 }
 
-.scrollup {
+.backtotopbutton {
    position: fixed;
    bottom: 20px;
    right: 20px;
    width: 40px;
    height: 40px;
-   background: url(../images/back-to-to-m.png) no-repeat;
-   
-   
-   /*opacity: 0.3;
-   display: none;
-   text-indent: -9999px;*/
- }
+   background: url(../images/backtotop.png) no-repeat;
+   /*background-repeat: no-repeat;*/
+   background-size: contain;
+}
