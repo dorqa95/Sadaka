@@ -171,7 +171,7 @@ a:active {
 }
 
 .carousel-home .carousel-caption {
-    top: 60%;
+    top: 50%;
     bottom: auto;
     transform: translateY(-50%);
 }
@@ -200,7 +200,7 @@ a:active {
 }
 
 .carousel-home .btn {
-    margin-top: 130px;
+    /*margin-top: 3%;*/
 }
 
 .section-home {
@@ -1219,3 +1219,17 @@ form .alert {
     -webkit-animation-name: zoomIn;
     animation-name: zoomIn;
 }
+
+.scrollup {
+   position: fixed;
+   bottom: 20px;
+   right: 20px;
+   width: 40px;
+   height: 40px;
+   background: url(../images/back-to-to-m.png) no-repeat;
+   
+   
+   /*opacity: 0.3;
+   display: none;
+   text-indent: -9999px;*/
+ }
