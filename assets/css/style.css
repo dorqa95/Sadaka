@@ -145,10 +145,6 @@ a:active {
 /* Home Slider 
 ================================= */
 
-.carousel-home img {
-    width: 100%;
-}
-
 .carousel-home .carousel-control {
     background: #1f76bd;
     height: 80px;
@@ -202,11 +198,6 @@ a:active {
 .carousel-home .btn {
     /*margin-top: 3%;*/
 }
-
-.section-home {
-    margin: 30px 0;
-}
-
 
 /* home/ about-us 
 ================================= */
@@ -519,7 +510,7 @@ a:active {
 }
 
 .main-container {
-    margin-bottom: 50px;
+    margin: 0;
 }
 
 
@@ -537,7 +528,7 @@ a:active {
 }
 
 .contact-items {
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
 .contact-items .contact-item {
@@ -626,7 +617,7 @@ form .alert {
     text-align: center;
     text-transform: uppercase;
     font-size: 26px;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
 }
 
 .title-style-2 {
@@ -965,6 +956,7 @@ form .alert {
         background: #115c9b;
         border-top-color: #1f76bd;
     }
+
     .carousel-home .carousel-title {
         font-size: 28px;
     }
