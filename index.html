@@ -90,7 +90,7 @@
                                     <li class="submenu-item"><a href="#gyuli">Gyülekezetünk</a></li>
                                     <li class="submenu-item"><a href="#alkalom">Alkalmaink</a></li>
                                     <li class="submenu-item"><a href="#golgota">Mi a Golgota?</a></li>
-                                    <li class="submenu-item"><a href="#golgota">Hitvallásunk</a></li>
+                                    <li class="submenu-item"><a href="#heading">Hitvallásunk</a></li>
                                     <li class="submenu-item"><a href="#cim">Címünk</a></li>
                                 </ul>
                             </li>
@@ -429,36 +429,20 @@
                                 </div> <!-- panel-body -->
                             </div> <!-- collapse-seven -->
                         </div>
-                        <div class="panel panel-default" data-toggle="modal" data-target="#hit" >
+                        <div class="panel panel-default">
                             <div class="panel-heading" role="tab" id="heading2_4">
-                                <a class="collapsed" data-toggle="collapse" data-parent="#accordion2" aria-expanded="false" aria-controls="collapse2_4">
+                                <a name="heading" class="collapsed" data-toggle="collapse" data-parent="#accordion2" href="#collapse2_4" aria-expanded="false" aria-controls="collapse2_4">
                                     <h4 class="panel-title">
                                   <i class="fa fa-plus"></i>   Hitvallásunk
                                 </h4> </a>
                             </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <!-- Modal -->
-			<div id="hit" class="modal fade" role="dialog">
-				<div class="modal-dialog modal-lg">
-
-					<!-- Modal content-->
-					<div class="modal-content">
-						<div class="modal-header">
-							<button type="button" class="close" data-dismiss="modal">&times;</button>
-							<h4 class="modal-title">Hitvallásunk</h4>	
-						</div>
-						<div class="modal-body">
-
-							<div class="col-md-12 fadeIn animate-onscroll">
-								<div class="panel-group" id="accordion3" role="tablist" aria-multiselectable="true">
+                            <div id="collapse2_4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading2_4">
+                                <div class="panel-body">
 									<div class="panel panel-default">
 										<div class="panel-heading" role="tab" id="heading3_1">
 											<a class="collapsed" data-toggle="collapse" data-parent="#accordion3" href="#collapse3_1" aria-expanded="true" aria-controls="collapse3_1">
-											<h4 class="panel-title"><i class="fa fa-plus"></i>   Elfogadjuk</h4> </a>
+												<h4 class="panel-title"><i class="fa fa-plus"></i>   Elfogadjuk</h4> 
+											</a>
 										</div>
 										<div id="collapse3_1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading3_1">
 											<div class="panel-body"> 
@@ -486,7 +470,7 @@
 												"A teljes írás Istentől ihletett, és hasznos a tanításra, feddésre,
 												megjobbításra és az igazságban való nevelésre."</p>
 												<h4><strong>A Jelenések könyvének igazságait</strong></h4>
-												
+
 											</div>
 										</div>
 									</div>
@@ -594,106 +578,120 @@
 											</div>
 										</div>
 									</div>
-								</div>
-							</div>		
-						</div>
-						<div class="modal-footer">
-							<button type="button" class="btn btn-default" data-dismiss="modal">Bezárás</button>
-						</div>
-					</div>
-				</div>
-			</div>
+										
+                                </div> <!-- panel-body 2_4 -->
+                            </div> <!-- collapse-2_4 -->
+                        </div>
+                    </div>
+                </div>
+            </div>
             
-            <!-- Golgota vége -->
             
-            <!-- Képek eleje -->
+            
+            <!-- Média eleje -->
             <div class="container" id="media">
-                <h2 class="title-style-1">Média<span class="title-under"></span></h2>
-                <br>
-                <div class="contact-items">
-                    <div class="text-center">
+            	<h2 class="title-style-1">Média<span class="title-under"></span></h2>
+            	<br>
+            	<div class="contact-items">
+                	<div class="text-center container">
 						<!-- Trigger the modal with a button -->
 						<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#kepek" id="keptar"><img src="">Képalbum </button>
 
 						<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#hangok" id="tanitasok"><img src="">Tanítások</button>
-						
+
 						<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#enek" id="enekeskonyv"><img src="">Énekeskönyv</button>
+						
 					</div>
+					
 					<!-- Képek mappákkal nézet -->
 					<div id="kepek" class="modal fade" role="dialog">
-					  <div class="modal-dialog modal-lg">
+						<div class="modal-dialog modal-lg">
+							<!-- Modal képek mappákkal content-->
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal">&times;</button>
+									<h4 class="modal-title">Képek</h4>	
+								</div>
+								<div class="modal-body">
 
-						<!-- Modal képek mappákkal content-->
-						<div class="modal-content">
-						  <div class="modal-header">
-							<button type="button" class="close" data-dismiss="modal">&times;</button>
-							<h4 class="modal-title">Képek</h4>	
-						  </div>
-						  <div class="modal-body">
+									<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#mappa1"><img src="assets/images/gallery/thumbnail/image516449.jpg"><br>Ifitábor 2016</button>
 
-							<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#mappa1"><img src="assets/images/gallery/thumbnail/image516449.jpg"><br>Ifitábor 2015</button>
+									<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#mappa2"><img src="assets/images/gallery/thumbnail/image516449.jpg"><br>Ifitábor 2015</button>
 
-							<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#mappa2"><img src="assets/images/gallery/thumbnail/image516449.jpg"><br>Ifitábor 2014</button>
-
-						  </div>
-						  <div class="modal-footer">
-							<button type="button" class="btn btn-default" data-dismiss="modal">Bezárás</button>
-						  </div>
-						</div>
-
+								</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-default" data-dismiss="modal">Bezárás</button>
+								</div>
+							</div>
 					  </div>
 					</div>
 
 					<!-- Modal -->
 					<div id="mappa1" class="modal fade" role="dialog">
-					  <div class="modal-dialog modal-lg">
+						<div class="modal-dialog modal-lg">
+							<!-- Modal content-->
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal">&times;</button>
+									<h4 class="modal-title">Ifitábor 2016</h4>	
+								</div>
+								<div class="modal-body">
 
-						<!-- Modal content-->
-						<div class="modal-content">
-						  <div class="modal-header">
-							<button type="button" class="close" data-dismiss="modal">&times;</button>
-							<h4 class="modal-title">Ifitábor 2015</h4>	
-						  </div>
-						  <div class="modal-body">
+									<div class="container" id="kepek">
+										<div id="links">
+											<a href="assets/images/gallery/7610291856_931fb9f461_k.jpg" title="" data-gallery>
+												<img src="assets/images/gallery/thumb/7610291856_931fb9f461_k.jpg" alt="Banana">
+											</a>
+											<a href="assets/images/gallery/afghani-60798_1280.jpg" title="Apple" data-gallery>
+												<img src="assets/images/gallery/thumb/afghani-60798_1280.jpg" alt="Apple">
+											</a>
+											<a href="assets/images/gallery/africa-education.jpg" title="Orange" data-gallery>
+												<img src="assets/images/gallery/thumb/africa-education.jpg" alt="Orange">
+											</a>
+											<br>
+											<a href="assets/images/gallery/7610291856_931fb9f461_k.jpg" title="1" data-gallery>
+												<img src="assets/images/gallery/thumb/7610291856_931fb9f461_k.jpg" alt="Banana">
+											</a>
+											<a href="assets/images/gallery/afghani-60798_1280.jpg" title="Apple1" data-gallery>
+												<img src="assets/images/gallery/thumb/afghani-60798_1280.jpg" alt="Apple">
+											</a>
+											<a href="assets/images/gallery/africa-education.jpg" title="Orange1" data-gallery>
+												<img src="assets/images/gallery/thumb/africa-education.jpg" alt="Orange">
+											</a>
+										</div>
+									</div>
 
-							<div class="container" id="kepek">
-								<div id="links">
-									<a href="assets/images/gallery/7610291856_931fb9f461_k.jpg" title="" data-gallery>
-										<img src="assets/images/gallery/thumb/7610291856_931fb9f461_k.jpg" alt="Banana">
-									</a>
-									<a href="assets/images/gallery/afghani-60798_1280.jpg" title="Apple" data-gallery>
-										<img src="assets/images/gallery/thumb/afghani-60798_1280.jpg" alt="Apple">
-									</a>
-									<a href="assets/images/gallery/africa-education.jpg" title="Orange" data-gallery>
-										<img src="assets/images/gallery/thumb/africa-education.jpg" alt="Orange">
-									</a>
-									<br>
-									<a href="assets/images/gallery/7610291856_931fb9f461_k.jpg" title="1" data-gallery>
-										<img src="assets/images/gallery/thumb/7610291856_931fb9f461_k.jpg" alt="Banana">
-									</a>
-									<a href="assets/images/gallery/afghani-60798_1280.jpg" title="Apple1" data-gallery>
-										<img src="assets/images/gallery/thumb/afghani-60798_1280.jpg" alt="Apple">
-									</a>
-									<a href="assets/images/gallery/africa-education.jpg" title="Orange1" data-gallery>
-										<img src="assets/images/gallery/thumb/africa-education.jpg" alt="Orange">
-									</a>
+						  		</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-default" data-dismiss="modal">Bezárás</button>
 								</div>
 							</div>
-
-						  </div>
-						  <div class="modal-footer">
-							<button type="button" class="btn btn-default" data-dismiss="modal">Bezárás</button>
-						  </div>
 						</div>
-
-					  </div>
 					</div>
 				
-				    
-				            
+				    <!-- Énekeskönyv modal -->
+					<div id="enek" class="modal fade" role="dialog">
+						<div class="modal-dialog modal-lg">
+							<!-- Modal képek mappákkal content-->
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal">&times;</button>
+									<h4 class="modal-title">Énekeskönyv</h4>	
+								</div>
+								<div class="modal-body text-center">
+									<button type="submit" class="btn btn-info btn-lg" onclick="window.open('assets/media/Énekeskönyv_2015.pdf')"><i class="fa fa-download"></i> Letöltés</button>
+									<p><br>Az énekeskönyv letöltéséhez kattintson a Letöltés gombra!</p>
+								</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-default" data-dismiss="modal">Bezárás</button>
+								</div>
+							</div>
+						</div>
+					</div> 
+					    
 				</div>
             </div>
-            <!-- Képek vége --> 
+            <!-- Média vége --> 
                
             <div class="container" id="cim">
                 <h2 class="title-style-1">Címünk<span class="title-under"></span></h2>
@@ -885,6 +883,11 @@
             });
         });
     </script>
+    <script>
+		$(document).ready(function () {
+  			location.hash && $(location.hash + '.collapse').collapse('show');
+		});
+	</script>
 
 </body>
 
