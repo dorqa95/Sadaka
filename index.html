@@ -214,15 +214,15 @@
             <div class="container" id="gyuli">
                 <h2 class="title-style-1">Gyülekezetünk <span class="title-under"></span></h2>
                 <div class="col-md-12 fadeIn animate-onscroll">
-                    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                    <div class="panel-group" role="tablist" aria-multiselectable="true"> <!--amennyiben itt van egy id=accordion záródik auto-->
                         <div class="panel panel-default">
                             <div class="panel-heading" role="tab" id="heading1_1">
-                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse1_1" aria-expanded="true" aria-controls="collapse1_1">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse1_1" aria-expanded="false" aria-controls="collapse1_1">
                                     <h4 class="panel-title">
                                   <i class="fa fa-plus"></i>   Történetünk
                                 </h4> </a>
                             </div>
-                            <div id="collapse1_1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading1_1">
+                            <div id="collapse1_1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading1_1">
                                 <div class="panel-body">
 									<p class="text-justify">Egy tradicionális egyház ifjúsági csoportjaként működtünk 1990-2003 között. Ez idő alatt több ifjúsági tábort, gyerektábort, napközis tábort szerveztünk és vezettünk. Az egyház keretein belül több pályázat megvalósításában aktívan részt vettünk, és különböző programokat megvalósítottunk. Segítséget nyújtottunk épületek korszerűsítéséhez, felújításához és karbantartásához. Jó kapcsolatot tartottunk fent a saját egyházunk és más egyházak ifjúsági közösségeivel. Számtalan nagy közösségi alkalom megszervezői voltunk. Függetlenné 2003-ban lettünk. </p>
                                 </div>
@@ -256,7 +256,7 @@
                         </div>
                         <div class="panel panel-default">
                             <div class="panel-heading" role="tab" id="heading1_4">
-                                <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse1_4" aria-expanded="false" aria-controls="collapse1_4r">
+                                <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse1_4" aria-expanded="false" aria-controls="collapse1_4">
                                     <h4 class="panel-title">
                                   <i class="fa fa-plus"></i>   Gyülekezet vezetősége
                                 </h4> </a>
@@ -349,7 +349,7 @@
             <div class="container" id="golgota">
                 <h2 class="title-style-1">Mi a Golgota? <span class="title-under"></span></h2>
                 <div class="col-md-12 fadeIn animate-onscroll">
-                    <div class="panel-group" id="accordion2" role="tablist" aria-multiselectable="true">
+                    <div class="panel-group" role="tablist" aria-multiselectable="true">
                         <div class="panel panel-default">
                             <div class="panel-heading" role="tab" id="heading2_1">
                                 <a class="collapsed" data-toggle="collapse" data-parent="#accordion2" href="#collapse2_1" aria-expanded="true" aria-controls="collapse2_1">
@@ -357,7 +357,7 @@
                                   <i class="fa fa-plus"></i>   Az egyházról röviden
                                 </h4> </a>
                             </div>
-                            <div id="collapse2_1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading2_1">
+                            <div id="collapse2_1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading2_1">
                                 <div class="panel-body"> 
 									<p class="text-justify">A Golgota Gyülekezet az amerikai eredetű Calvary Chapel magyarországi gyülekezete. Magyarországon 1991 óta működő protestáns felekezet. Bejegyzett egyházként 1994 óta működik. Hazánkban több gyülekezete is van. Igehirdetéseken a fő alapelvünk, hogy a Bibliát versről-versre tanítjuk. Az egyház számos keresztény misszióban vesz részt, Vajtán saját Bibliaiskolát tart fenn. Gyülekezeteink ma már megtalálhatóak az ország legtöbb nagy városában, számos településen jelenleg is zajlik új közösségek elindítása. </p>
                                 </div>
@@ -442,7 +442,7 @@
                                 <div class="panel-body">
 									<div class="panel panel-default">
 										<div class="panel-heading" role="tab" id="heading3_1">
-											<a class="collapsed" data-toggle="collapse" data-parent="#accordion3" href="#collapse3_1" aria-expanded="true" aria-controls="collapse3_1">
+											<a class="collapsed" data-toggle="collapse" data-parent="#accordion3" href="#collapse3_1" aria-expanded="false" aria-controls="collapse3_1">
 												<h4 class="panel-title"><i class="fa fa-plus"></i>   Elfogadjuk</h4> 
 											</a>
 										</div>
@@ -688,7 +688,7 @@
                 <h2 class="title-style-1">Címünk<span class="title-under"></span></h2>
                 <div class="row contact-items">
                     <ul class="list-unstyled contact-items-list">
-						<li class="contact-item"> <span class="contact-icon"> <i class="fa fa-map-marker"></i></span><b><a target="blank" href="https://www.google.ca/maps/place/B%C3%A9k%C3%A1si+Golgota+Kereszt%C3%A9ny+Gy%C3%BClekezet/@47.6014605,19.0576722,17z/data=!3m1!4b1!4m5!3m4!1s0x4741d76051961d01:0x13f72ec35bc644fe!8m2!3d47.6014569!4d19.0598609">1039 Bp., Madzsar József utca 7.</a></b></li>
+						<li class="contact-item"> <span class="contact-icon"> <i class="fa fa-map-marker"></i></span><b><a target="blank" href="https://www.google.ca/maps/place/B%C3%A9k%C3%A1si+Golgota+Kereszt%C3%A9ny+Gy%C3%BClekezet/@47.6014605,19.0576722,17z/data=!3m1!4b1!4m5!3m4!1s0x4741d76051961d01:0x13f72ec35bc644fe!8m2!3d47.6014569!4d19.0598609"><u>1039 Bp., Madzsar József utca 7.</u></a></b></li>
                     </ul>
 					<p><img src="assets/images/gy%C3%BCli_map_help.jpg"></p>
 					<p class="text-justify"> <b>Megközelítés autóval</b></p>
