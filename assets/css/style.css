@@ -928,15 +928,7 @@ form .alert {
 /* Small devices (tablets, 867px and Down) */
 
 @media (max-width: 867px) {
-    .header-contact {
-        text-align: center;
-    }
-    .header-contact li {
-        margin: 0 !important;
-    }
-    .header-social {
-        text-align: center;
-    }
+    
     .navbar-main #navbar {
         float: none !important;
     }
@@ -1016,6 +1008,11 @@ form .alert {
 @media (max-width: 430px) {
 	.contact-items img {
 			max-height: 180px;
+	}
+}
+@media (max-width: 491px) {
+	.media-items button {
+		 margin-bottom: 15px;
 	}
 }
 /* =============================================================================
