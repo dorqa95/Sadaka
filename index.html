@@ -26,6 +26,8 @@
     
     <!-- Modernizr -->
     <script src="assets/js/modernizr-2.6.2.min.js"></script>
+    
+    
    
 </head>
 
@@ -699,8 +701,46 @@
 						</div>
 					</div>
 				</div>
+				
+				<!-- Hangok modul -->
+				<div id="hangok" class="modal fade" role="dialog">
+					<div class="modal-dialog modal-lg">
+						<div class="modal-content">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+								<h4 class="modal-title">Tanítások</h4>	
+							</div>
+							<div class="modal-body text-center" style="line">
+								<div class="row">
+									<p style="padding-left: 20px;">Márkus Szilárd 2016.07.03.</p>
+								  	<audio controls>
+									  <source src="assets/media/Tanitasok/MarkusSzilard20160703.mp3" type="audio/mpeg" />
+									</audio>
+								</div>
+								<div class="row">
+									<p style="padding-left: 20px;">Márkus Szilárd 2016.07.03.</p>
+								  	<audio controls>
+									  <source src="assets/media/Tanitasok/MarkusSzilard20160703.mp3" type="audio/mpeg" />
+									</audio>
+								</div>
+								<div class="row">
+									<p style="padding-left: 20px;">Márkus Szilárd 2016.07.03.</p>
+								  	<audio controls>
+									  <source src="assets/media/Tanitasok/MarkusSzilard20160703.mp3" type="audio/mpeg" />
+									</audio>
+								</div>
 
-				<!-- Énekeskönyv modal -->
+
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-default" data-dismiss="modal">Bezárás</button>
+							</div>
+						</div>
+				  </div>
+				</div>
+				<!-- Hangok modul vége -->
+				
+				<!-- Énekeskönyv modul -->
 				<div id="enek" class="modal fade" role="dialog">
 					<div class="modal-dialog modal-lg">
 						<!-- Modal képek mappákkal content-->
@@ -719,20 +759,8 @@
 						</div>
 					</div>
 				</div>
+				<!-- Énekesköny modul vége -->
 				
-			</div>
-			<div id="video_player_box" class="text-center">
-				<video id="my_video" width="550" height="310" autoplay>
-					<source src="assets/media/Tanitasok/MarkusSzilard20160703.mp3">
-				</video>
-				<div id="video_controls_bar">
-					<button id="playpausebtn"></button>
-					<input id="seekslider" type="range" min="0" max="100" value="0" step="1">
-					<span id="curtimetext">00:00</span> / <span id="durtimetext">00:00</span>
-					<button id="mutebtn">Mute</button>
-					<input id="volumeslider" type="range" min="0" max="100" value="100" step="1">
-					<button id="fullscreenbtn">[ &nbsp; ]</button>
-  				</div>
 			</div>
 		</div>
 	</div>
@@ -941,7 +969,7 @@
   			location.hash && $(location.hash + '.collapse').collapse('show');
 		});
 	</script>
-
+	<script src="assets/js/bootstrap3_player.js"></script>
 </body>
 
 </html>
