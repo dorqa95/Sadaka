@@ -1,11 +1,8 @@
 /*------------------------------------------------------------------------------------------------------------------------
- 
  @package: Sadaka
  @author: Ouarmedia/Farouk BLALOU
  @version: 1.0
- 
  --------------------------------------------------------------------------------------------------------------------- */
-
 
 /* =============================================================================
   Base
@@ -16,10 +13,7 @@ body {
     color: #115c9b;
 }
 
-h1,
-h2,
-h3,
-h4 {
+h1, h2, h3, h4 {
     font-family: "Dosis", sans-serif;
 }
 
@@ -27,20 +21,15 @@ a {
     color: inherit;
 }
 
-a:hover,
-a:focus,
-a:active {
+a:hover, a:focus, a:active {
     color: inherit;
 }
-
 
 /* =============================================================================
   Layout
 ========================================================================== */
 
-
-/* Header 
-================================= */
+/* Header ================================= */
 
 .navbar-static-top {
     margin: 0;
@@ -142,8 +131,7 @@ a:active {
 }
 
 
-/* Home Slider 
-================================= */
+/* Home Slider ================================= */
 
 .carousel-home .carousel-control {
     background: #1f76bd;
@@ -173,7 +161,7 @@ a:active {
 }
 
 .carousel-home .carousel-title {
-    color: #185b91;
+    color: #fff;
     font-family: "Dosis", sans-serif;
     font-size: 60px;
     font-weight: bold;
@@ -181,7 +169,7 @@ a:active {
 }
 
 .carousel-home .carousel-title2 {
-    color: #185b91;
+    color: #fff;
     font-family: "Dosis", sans-serif;
     font-size: 60px;
     font-weight: bold;
@@ -189,18 +177,18 @@ a:active {
 }
 
 .carousel-home .carousel-subtitle {
-    color: #185b91;
+    color: #fff;
     margin-top: 20px;
     font-size: 35px;
     text-transform: uppercase;
 }
 
 .carousel-home .btn {
-    /*margin-top: 3%;*/
+	background: rgba(31, 118, 189, 0.59);
+    color: #fff;
 }
 
-/* home/ about-us 
-================================= */
+/* home/ about-us ================================= */
 
 .about-us {
     margin: 30px 0;
@@ -234,8 +222,7 @@ a:active {
 }
 
 
-/* home/reasons 
-================================= */
+/* home/reasons ================================= */
 
 .home-reasons {
     margin: 25px 0;
@@ -305,8 +292,7 @@ a:active {
 }
 
 
-/* home/causes
-================================= */
+/* home/causes ================================= */
 
 .cause {
     padding-bottom: 15px;
@@ -355,8 +341,7 @@ a:active {
 }
 
 
-/* Team 
-================================= */
+/* Team ================================= */
 
 .team-member {
     background: #1f76bd;
@@ -379,8 +364,7 @@ a:active {
 }
 
 
-/* footer 
-================================= */
+/* footer ================================= */
 
 .footer-top {
     background: #115c9b;
@@ -489,11 +473,9 @@ a:active {
 }
 
 
-/* Pages 
-================================= */
+/* Pages ================================= */
 
 .page-heading {
-    background: url('../images/heading-bg.jpg?1428795369') no-repeat center;
     background-size: cover;
     min-height: 190px;
     color: #fff;
@@ -514,8 +496,7 @@ a:active {
 }
 
 
-/* Pages/Gallery 
-================================= */
+/* Pages/Gallery ================================= */
 
 .gallery-item {
     padding: 0;
@@ -559,8 +540,7 @@ a:active {
 		margin-left:10px;
 }
 
-/* contact 
-================================= */
+/* contact ================================= */
 
 .contact-map {
     position: fixed;
@@ -575,8 +555,7 @@ form .alert {
 }
 
 
-/* Causes 
-================================= */
+/* Causes ================================= */
 
 .cause-carousel {
     margin-top: 15px;
@@ -660,8 +639,7 @@ form .alert {
 }
 
 
-/* Modal
-================================= */
+/* Modal ================================= */
 
 .form-control {
     border-radius: 0;
@@ -669,8 +647,7 @@ form .alert {
 }
 
 
-/* Tabeles
-================================= */
+/* Tabeles ================================= */
 
 .table-style-1 thead {
     background: #1f76bd;
@@ -700,8 +677,7 @@ form .alert {
 }
 
 
-/* Tabs
-================================= */
+/* Tabs ================================= */
 
 .nav-tabs {
     border-bottom-color: #1f76bd;
@@ -730,8 +706,7 @@ form .alert {
 }
 
 
-/* Accordion
-================================= */
+/* Accordion ================================= */
 
 .panel-default {
     border-color: #1f76bd;
@@ -748,8 +723,7 @@ form .alert {
 }
 
 
-/* Modal
-================================= */
+/* Modal ================================= */
 
 .modal .modal-content {
     border-radius: 0;
@@ -841,8 +815,7 @@ form .alert {
 }
 
 
-/* Ow carousel
-================================= */
+/* Ow carousel ================================= */
 
 .owl-next,
 .owl-prev {
@@ -1020,7 +993,7 @@ form .alert {
 ========================================================================== */
 
 .animate-onscroll {
-    visibility: hidden;
+    visibility: visible;
 }
 
 .animated {
@@ -1065,11 +1038,7 @@ form .alert {
 }
 
 @-webkit-keyframes bounceInUp {
-    0%,
-    60%,
-    75%,
-    90%,
-    100% {
+    0%, 60%, 75%, 90%, 100% {
         -webkit-transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
         transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
     }
@@ -1098,11 +1067,7 @@ form .alert {
 }
 
 @keyframes bounceInUp {
-    0%,
-    60%,
-    75%,
-    90%,
-    100% {
+    0%, 60%, 75%, 90%, 100% {
         -webkit-transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
         transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
     }
@@ -1136,11 +1101,7 @@ form .alert {
 }
 
 @-webkit-keyframes bounceInDown {
-    0%,
-    60%,
-    75%,
-    90%,
-    100% {
+    0%, 60%, 75%, 90%, 100% {
         -webkit-transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
         transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
     }
@@ -1169,11 +1130,7 @@ form .alert {
 }
 
 @keyframes bounceInDown {
-    0%,
-    60%,
-    75%,
-    90%,
-    100% {
+    0%, 60%, 75%, 90%, 100% {
         -webkit-transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
         transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
     }
