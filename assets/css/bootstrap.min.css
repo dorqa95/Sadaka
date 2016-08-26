@@ -4412,23 +4412,27 @@ select[multiple].input-group-sm>.input-group-btn>.btn {
 }
 
 .nav-tabs {
-	border-bottom: 1px solid #ddd
+	border-bottom: 1px solid #ddd;
 }
 
 .nav-tabs>li {
-	float: left;
-	margin-bottom: -1px
+	float: none;
+	display: inline-block;
+	background-color: #1f76bd;
+	color: #fff;
+	margin-bottom: -1px;
+	padding-right: -2px;
+	border-radius: 6px;
 }
 
 .nav-tabs>li>a {
-	margin-right: 2px;
 	line-height: 1.42857143;
 	border: 1px solid transparent;
-	border-radius: 4px 4px 0 0
+	border-radius: 4px 4px 0 0;
 }
 
 .nav-tabs>li>a:hover {
-	border-color: #eee #eee #ddd
+	border-color: #eee #eee #ddd;
 }
 
 .nav-tabs>li.active>a,
@@ -4438,6 +4442,7 @@ select[multiple].input-group-sm>.input-group-btn>.btn {
 	cursor: default;
 	background-color: #fff;
 	border: 1px solid #ddd;
+	border-radius: 6px;
 	border-bottom-color: transparent
 }
 
@@ -4494,7 +4499,8 @@ select[multiple].input-group-sm>.input-group-btn>.btn {
 }
 
 .nav-pills>li {
-	float: left
+	float: none;
+	display: inline-block;
 }
 
 .nav-pills>li>a {

@@ -693,12 +693,12 @@ form .alert {
 .nav-tabs > li.active > a,
 .nav-tabs > li.active > a:hover,
 .nav-tabs > li.active > a:focus {
-    background: #1f76bd;
+    background: #115c9b;
     color: #fff;
 }
 
 .nav-tabs > li > a {
-    border-radius: 0;
+    border-radius: 6px;
 }
 
 .nav-tabs > li > a:hover {
