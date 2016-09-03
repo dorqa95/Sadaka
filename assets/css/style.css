@@ -1210,3 +1210,10 @@ form .alert {
 ul, ol {
     margin-bottom: 0;
 }
+
+.modal-body img {
+	max-height: 234px;
+}
+.modal-body .container {
+	width: auto;
+}
