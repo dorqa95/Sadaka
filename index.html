@@ -941,6 +941,8 @@
 		</div>
 	</div>	<!-- Bootstrap Image Gallery -->  
     
+    <div id="fb-root"></div>
+	<div class="fb-page" data-href="https://www.facebook.com/golgotabekas/" data-tabs="timeline" data-height="350" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/golgotabekas/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/golgotabekas/">Golgota Békásmegyer - Keresztyén Ifjúsági Missziós Alapítvány</a></blockquote></div>
     <a href="#" class="backtotopbutton"></a>
     
     <!-- Modal -->
@@ -1091,6 +1093,14 @@
 		$(document).ready(function () {
   			location.hash && $(location.hash + '.collapse').collapse('show');
 		});
+	</script>
+	<script>(function(d, s, id) {
+		var js, fjs = d.getElementsByTagName(s)[0];
+		if (d.getElementById(id)) return;
+		js = d.createElement(s); js.id = id;
+		js.src = "//connect.facebook.net/hu_HU/sdk.js#xfbml=1&version=v2.8";
+		fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
 	</script>
 </body>
 
