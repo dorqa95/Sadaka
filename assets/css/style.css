@@ -1207,6 +1207,12 @@ form .alert {
    background-size: contain;
 }
 
+.facebookpager {
+   position: fixed;
+   bottom: 10px;
+   left: 10px;
+}
+
 ul, ol {
     margin-bottom: 0;
 }
