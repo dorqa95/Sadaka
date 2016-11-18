@@ -4,6 +4,7 @@
  @version: 1.0
  --------------------------------------------------------------------------------------------------------------------- */
 
+
 /* =============================================================================
   Base
 ========================================================================== */
@@ -25,9 +26,11 @@ a:hover, a:focus, a:active {
     color: inherit;
 }
 
+
 /* =============================================================================
   Layout
 ========================================================================== */
+
 
 /* Header ================================= */
 
@@ -65,10 +68,7 @@ a:hover, a:focus, a:active {
     border-bottom: none !important;
 }
 
-.navbar-main a:hover,
-.navbar-main a:active,
-.navbar-main a:focus,
-.navbar-main a.is-active {
+.navbar-main a:hover, .navbar-main a:active, .navbar-main a:focus, .navbar-main a.is-active {
     background: none !important;
     color: inherit;
     border-bottom: 2px solid #fff;
@@ -184,9 +184,10 @@ a:hover, a:focus, a:active {
 }
 
 .carousel-home .btn {
-	background: rgba(31, 118, 189, 0.59);
+    background: rgba(31, 118, 189, 0.59);
     color: #fff;
 }
+
 
 /* home/ about-us ================================= */
 
@@ -344,9 +345,10 @@ a:hover, a:focus, a:active {
 /* hangok ================================= */
 
 #hangok .modal-body p {
-	padding-left: 20px;
-	font-size: 20px;
+    padding-left: 20px;
+    font-size: 20px;
 }
+
 
 /* Team ================================= */
 
@@ -369,6 +371,7 @@ a:hover, a:focus, a:active {
 .team-member .member-position {
     padding: 0 15px 5px;
 }
+
 
 /* footer ================================= */
 
@@ -458,23 +461,19 @@ a:hover, a:focus, a:active {
     background: #fff;
 }
 
-.footer-form input:-moz-placeholder,
-.footer-form textarea:-moz-placeholder {
+.footer-form input:-moz-placeholder, .footer-form textarea:-moz-placeholder {
     color: #fff;
 }
 
-.footer-form input::-moz-placeholder,
-.footer-form textarea::-moz-placeholder {
+.footer-form input::-moz-placeholder, .footer-form textarea::-moz-placeholder {
     color: #fff;
 }
 
-.footer-form input:-ms-input-placeholder,
-.footer-form textarea:-ms-input-placeholder {
+.footer-form input:-ms-input-placeholder, .footer-form textarea:-ms-input-placeholder {
     color: #fff;
 }
 
-.footer-form input::-webkit-input-placeholder,
-.footer-form textarea::-webkit-input-placeholder {
+.footer-form input::-webkit-input-placeholder, .footer-form textarea::-webkit-input-placeholder {
     color: #fff;
 }
 
@@ -542,9 +541,10 @@ a:hover, a:focus, a:active {
 }
 
 .contact-items img {
-		float: right;
-		margin-left:10px;
+    float: right;
+    margin-left: 10px;
 }
+
 
 /* contact ================================= */
 
@@ -661,8 +661,7 @@ form .alert {
     color: #fff;
 }
 
-.table-style-1 td,
-.table-style-1 th {
+.table-style-1 td, .table-style-1 th {
     border-bottom: 1px solid #1f76bd;
 }
 
@@ -677,8 +676,7 @@ form .alert {
     color: #fff;
 }
 
-.table-style-2 td,
-.table-style-2 th {
+.table-style-2 td, .table-style-2 th {
     border-bottom: 1px solid #1f76bd;
 }
 
@@ -690,23 +688,20 @@ form .alert {
     margin-bottom: 15px;
 }
 
-.nav-tabs > li.active > a,
-.nav-tabs > li.active > a:hover,
-.nav-tabs > li.active > a:focus {
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus {
     background: #115c9b;
     color: #fff;
 }
 
-.nav-tabs > li > a {
+.nav-tabs>li>a {
     border-radius: 6px;
 }
 
-.nav-tabs > li > a:hover {
+.nav-tabs>li>a:hover {
     border-color: #1f76bd #1f76bd #1f76bd #115c9b;
 }
 
-.nav > li > a:hover,
-.nav > li > a:focus {
+.nav>li>a:hover, .nav>li>a:focus {
     background: #115c9b;
     color: #fff;
 }
@@ -719,12 +714,12 @@ form .alert {
     border-radius: 0;
 }
 
-.panel-default > .panel-heading {
+.panel-default>.panel-heading {
     background: #1f76bd;
     color: #fff;
 }
 
-.panel-default > .panel-heading:hover {
+.panel-default>.panel-heading:hover {
     background: #115c9b;
 }
 
@@ -823,8 +818,7 @@ form .alert {
 
 /* Ow carousel ================================= */
 
-.owl-next,
-.owl-prev {
+.owl-next, .owl-prev {
     width: 32px;
     height: 32px;
     padding-top: 5px;
@@ -843,8 +837,7 @@ form .alert {
     transition: all, 0.5s;
 }
 
-.owl-next:hover,
-.owl-prev:hover {
+.owl-next:hover, .owl-prev:hover {
     filter: progid: DXImageTransform.Microsoft.Alpha(enabled=false);
     opacity: 1;
 }
@@ -872,7 +865,6 @@ form .alert {
     .reasons-col:hover .on-hover {
         padding: 25px;
     }
-
 }
 
 
@@ -900,14 +892,12 @@ form .alert {
     .footer-col {
         margin-bottom: 50px;
     }
-	
 }
 
 
 /* Small devices (tablets, 867px and Down) */
 
 @media (max-width: 867px) {
-    
     .navbar-main #navbar {
         float: none !important;
     }
@@ -922,18 +912,13 @@ form .alert {
         display: none;
         width: 100%;
     }
-    .navbar-main li:hover .submenu,
-    .navbar-main li:active .submenu,
-    .navbar-main li:focus .submenu {
+    .navbar-main li:hover .submenu, .navbar-main li:active .submenu, .navbar-main li:focus .submenu {
         display: block;
     }
-    .navbar-main li:hover .submenu li,
-    .navbar-main li:active .submenu li,
-    .navbar-main li:focus .submenu li {
+    .navbar-main li:hover .submenu li, .navbar-main li:active .submenu li, .navbar-main li:focus .submenu li {
         background: #115c9b;
         border-top-color: #1f76bd;
     }
-
     .carousel-home .carousel-title {
         font-size: 28px;
     }
@@ -954,7 +939,6 @@ form .alert {
     .col-form {
         margin-bottom: 25px;
     }
-	
 }
 
 
@@ -973,27 +957,31 @@ form .alert {
     .carousel-home .carousel-indicators {
         bottom: 0;
     }
-	.contact-items img {
-		float: left;
-		margin: 5px 400px 10px 60px;
-	}
-	
+    .contact-items img {
+        float: left;
+        margin: 5px 400px 10px 60px;
+    }
 }
+
 @media (max-width: 550px) {
-	.contact-items img {
-			max-height: 280px;
-	}
+    .contact-items img {
+        max-height: 280px;
+    }
 }
+
 @media (max-width: 430px) {
-	.contact-items img {
-			max-height: 180px;
-	}
+    .contact-items img {
+        max-height: 180px;
+    }
 }
+
 @media (max-width: 651px) {
-	.media-items button {
-		 margin-bottom: 15px;
-	}
+    .media-items button {
+        margin-bottom: 15px;
+    }
 }
+
+
 /* =============================================================================
 	Animations
 ========================================================================== */
@@ -1197,20 +1185,20 @@ form .alert {
 }
 
 .backtotopbutton {
-   position: fixed;
-   bottom: 20px;
-   right: 20px;
-   width: 40px;
-   height: 40px;
-   background: url(../images/backtotop2.png) no-repeat;
-   /*background-repeat: no-repeat;*/
-   background-size: contain;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    background: url(../images/backtotop2.png) no-repeat;
+    /*background-repeat: no-repeat;*/
+    background-size: contain;
 }
 
 .facebookpager {
-   position: fixed;
-   bottom: 10px;
-   left: 10px;
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
 }
 
 ul, ol {
@@ -1218,8 +1206,9 @@ ul, ol {
 }
 
 .modal-body img {
-	max-height: 234px;
+    max-height: 234px;
 }
+
 .modal-body .container {
-	width: auto;
+    width: auto;
 }
