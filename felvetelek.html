@@ -362,6 +362,24 @@
         });
 	</script>
 	
+	<script>
+		$(document).ready(function () {
+			$("img.swap-audio").click(function (event) {
+				var codecs = {
+					'mp3': 'audio/mpeg'
+				};
+				var c, p, s = '';
+				p = $(this).attr('src').substring(($(this).attr('src').lastIndexOf('/')+1), ($(this).attr('src').length-3));
+				p = 'http://bekas.golgota.hu/media/hang/mp3/' + p;
+				s = '';
+				for (c in codecs) {
+					s += '<source src="' + p + c + '" type="' + codecs[c] + '" >';
+				}
+				$(this).replaceWith('<audio autoplay controls>' + s + '</video>');
+			});
+		});
+	</script>
+
 </body>
 
 </html>

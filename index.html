@@ -23,9 +23,6 @@
     <link rel="stylesheet" href="assets/css/blueimp-gallery.min.css">
     <!-- Bootstrap image gallery -->
     <link rel="stylesheet" href="assets/css/bootstrap-image-gallery.min.css">
-
-    <!-- Modernizr -->
-    <script src="assets/js/modernizr-2.6.2.min.js"></script>
 </head>
 
 <body>
@@ -113,6 +110,7 @@
         </nav>
     </header>
     <!-- /. main-header -->
+    
     <!-- Felső kattintható galéria Carousel
     ================================================== -->
     <div id="homeCarousel" class="carousel slide carousel-home" data-ride="carousel">
@@ -812,40 +810,26 @@
                         <div role="tabpanel" class="tab-pane active" id="hangok">
                             <div id="hang1" class="oszlopbal col-md-4 col-sm-12">
 
-                                <audio controls="" poster="http://daringfireball.net.s3.amazonaws.com/misc/2009/12/iphoneguide-iphone.jpg" width="undefined" height="undefined" class="middle-vertical">
-                                    <source src="http://daringfireball.net.s3.amazonaws.com/misc/2009/12/iphoneguide-iphone.mp4" type="video/mp4" <source="" <="" video="">
-                                </audio>
-
                                 <p>Márkus Szilárd 2016.11.13.</p>
-                                <audio controls>
-								  <source src="http://bekas.golgota.hu/media/hang/mp3/MarkusSzilard20161113.mp3" type="audio/mpeg" preload="none" autobuffer="false"/>
-								</audio>
-
-                                <p>Márkus Szilárd 2016.11.06.</p>
-                                <audio controls>
-								  <source src="http://bekas.golgota.hu/media/hang/mp3/MarkusSzilard20161106.mp3" type="audio/mpeg" autobuffer="false"/>
-								</audio>
-
+                                <img class="swap-audio" src="http://bekas.golgota.hu/assets/images/Tanítások/MarkusSzilard20161113.png"/>
+                                
+                                <p><br>Márkus Szilárd 2016.11.06.</p>
+                                <img class="swap-audio" src="http://bekas.golgota.hu/assets/images/Tanítások/MarkusSzilard20161106.png"/>
+                                
                             </div>
                             <div class="oszlopkozep col-md-4 col-sm-12">
 
                                 <p>Csatlós Gábor 2016.10.23.</p>
-                                <audio controls>
-								  <source src="http://bekas.golgota.hu/media/hang/mp3/CsatlosGabor20161023.mp3" type="audio/mpeg" autobuffer="false"/>
-								</audio>
-
+                                <img class="swap-audio" src="http://bekas.golgota.hu/assets/images/Tanítások/CsatlosGabor20161023.png"/>
+                                
                                 <p>Baji Péter 2016.10.16.</p>
-                                <audio controls>
-								  <source src="http://bekas.golgota.hu/media/hang/mp3/BajiPeti20161016.mp3" type="audio/mpeg" autobuffer="false"/>
-								</audio>
-
+                                <img class="swap-audio" src="http://bekas.golgota.hu/assets/images/Tanítások/BajiPeti20161016.png"/>
+                                
                             </div>
                             <div class="opszlopjobb col-md-4 col-sm-12">
 
                                 <p>Márkus Szilárd 2016.10.09.</p>
-                                <audio controls>
-								  <source src="http://bekas.golgota.hu/media/hang/mp3/MarkusSzilard20161009.mp3" type="audio/mpeg" autobuffer="false"/>
-								</audio>
+                                <img class="swap-audio" src="http://bekas.golgota.hu/assets/images/Tanítások/MarkusSzilard20161009.png"/>
 
                             </div>
 
@@ -1208,6 +1192,25 @@
             location.hash && $(location.hash + '.collapse').collapse('show');
         });
     </script>
+    
+    <script>
+		$(document).ready(function () {
+			$("img.swap-audio").click(function (event) {
+				var codecs = {
+					'mp3': 'audio/mpeg'
+				};
+				var c, p, s = '';
+				p = $(this).attr('src').substring(($(this).attr('src').lastIndexOf('/')+1), ($(this).attr('src').length-3));
+				p = 'http://bekas.golgota.hu/media/hang/mp3/' + p;
+				s = '';
+				for (c in codecs) {
+					s += '<source src="' + p + c + '" type="' + codecs[c] + '" >';
+				}
+				$(this).replaceWith('<audio autoplay controls>' + s + '</video>');
+			});
+		});
+	</script>
+
 </body>
 
 </html>
