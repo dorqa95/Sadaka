@@ -23,6 +23,16 @@
     <link rel="stylesheet" href="assets/css/blueimp-gallery.min.css">
     <!-- Bootstrap image gallery -->
     <link rel="stylesheet" href="assets/css/bootstrap-image-gallery.min.css">
+    
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="assets/js/jquery.snow.js"></script>
+    
+    <script>
+		$(document).ready( function(){
+			//fn_snow();
+		});
+	</script>
+    
 </head>
 
 <body>
@@ -120,7 +130,7 @@
             <li data-target="#homeCarousel" data-slide-to="2"></li>
         </ol>
         <div class="carousel-inner" role="listbox">
-            <div class="item active"> <img src="assets/images/slider/3.jpg" alt="">
+            <div class="item active"> <img src="assets/images/slider/0.jpg" alt="">
                 <div class="container">
                     <div class="carousel-caption">
                         <h2 class="carousel-title bounceInDown animated slow">Istentisztelet minden vasárnap 10 órától</h2>
@@ -131,11 +141,11 @@
                 </div>
             </div>
             <!-- /.item -->
-            <div class="item "> <img src="assets/images/slider/2.jpg" alt="">
+            <div class="item "> <img src="assets/images/slider/3.jpg" alt="">
                 <div class="container">
                     <div class="carousel-caption">
                         <h2 class="carousel-title bounceInDown animated slow">Minden héten két korcsoport számára ifik</h2>
-                        <h4 class="carousel-subtitle bounceInUp animated slow">9-től 13, és 18-tól 22 éveseknek</h4>
+                        <h4 class="carousel-subtitle bounceInUp animated slow">6-tól 13, és 18-tól 22 éveseknek</h4>
                         <a href="#alkalom" class="btn btn-lg btn-secondary hidden-xs bounceInUp animated slow">Részletek itt</a>
                     </div>
                     <!-- /.carousel-caption -->
@@ -175,7 +185,7 @@
                                         Vasárnap 10 óra Istentisztelet
                                     </li>
                                     <li>
-                                        Kedd 16:30 MennyBE ifi (9-13 éveseknek)
+                                        Kedd 16:30 MennyBE ifi (6-13 éveseknek)
                                     </li>
                                     <li>
                                         Szerda 20:00 Randi az Úrral (imádkozások)
@@ -208,7 +218,7 @@
                         <h3 class="col-title">Friss és ropogós</h3>
                         <div class="col-details">
                             <p>
-                                <br><strong>Hirdetés: </strong> <i><a href="#hir1"> Időpontváltozás: Randi az Úrral</a></i>
+                                <br><strong>Hirdetés: </strong> <i><a href="#hir1"> Tavaszi Csendes Hétvége 2017</a></i>
                                 <br><strong>Hanganyag: </strong> <i><a href="#hangok"> Vasárnapi IT</a></i>
                                 <br><strong>Képek: </strong> <i><a href="" data-toggle="modal" data-target="#kirandulas20161126"> Kirándulás 2016.11.26.</a></i>
                                 <a href="#media">
@@ -233,29 +243,22 @@
 
             <div class="panel panel-primary" id="hir1">
                 <div class="panel-heading">
+                    <h3 class="panel-title">Tavaszi Csendes Hétvége (CSH)</h3>
+                </div>
+                <div class="panel-body">
+                    A mellékletben megtalálod az idei Tavaszi Csendes Hétvége részleteit.
+					Időpont: 2017. június 3-5, pünkösdi hétvége.<br><br>
+					<button type="submit" class="btn btn-sm btn-info btn-lg" onclick="window.open('assets/media/Információ_20170113.pdf')">
+						<i class="fa fa-download"></i> Részletek letöltése pdf-ben
+					</button>
+                </div>
+            </div>
+            <div class="panel panel-primary">
+                <div class="panel-heading">
                     <h3 class="panel-title">Időpontváltozás: szerda esti imaalkalmak</h3>
                 </div>
                 <div class="panel-body">
                     Randi az Úrral alkalmainkat mostantól egy fél órábban korábban kezdjük, így szerda esténként 8 és 9 között várunk minden kedves érdeklődőt, egy jó kis imádkozásra ;)
-                </div>
-            </div>
-            <div class="panel panel-primary">
-                <div class="panel-heading">
-                    <h3 class="panel-title">Karácsonyi Istentisztelet és szeretetvendégség időpontjai</h3>
-                </div>
-                <div class="panel-body">
-					Karácsonyi <b>szeretetvendégségünket december 18</b>-án tartjuk az Istentisztelet után. Erre az alkalomra mindenki hoz magával egy kis enni/innivalót és közösen elfogyasztjuk.<br>
-					Idén a karácsonyi <b>Istentisztelet december 25</b>-re esik. Azért, hogy támogassuk a családi ünnepléseket, az alkalom egy órával korábban, <b>9 órakor</b> kezdődik és így hamarabb is ér véget. :) 
-                </div>
-            </div>
-            <div class="panel panel-primary">
-                <div class="panel-heading">
-                    <h3 class="panel-title">Itt van az ősz, itt van újra, az ifik is indulnak szépen sorban...</h3>
-                </div>
-                <div class="panel-body">
-                    Az ősz beköszöntével ismét elindulnak az ifik. A <b>MennyBe ifi</b> megváltozott időponttal <b>16:30-tól</b>, ám továbbra is
-                    <b>keddenként</b> várja a <b>9-13 évesek</b>et szeptember 6-tól, míg a <b>Mini ifi (MiFi)</b> a már megszokott
-                    <b>péntek</b>i <b>18 órá</b>s kezdéssel rajtol a <b>18-22 évesek</b> számára szeptember 16-tól (a szeptember 9-i alkalom a soproni túra miatt elmarad). Ha van kedved és időd, bátran csatlakozz a korosztályodnak megfelelő ifihez :)
                 </div>
             </div>
             
@@ -274,6 +277,25 @@
                                 <div class="col-md-12 fadeIn animate-onscroll">
                                     <div class="panel-group" role="tablist" aria-multiselectable="true">
                                         
+                                        <div class="panel panel-primary">
+											<div class="panel-heading" role="tab" id="heading5_6">
+												<h3 class="panel-title">Karácsonyi Istentisztelet és szeretetvendégség időpontjai</h3>
+											</div>
+											<div class="panel-body">
+												Karácsonyi <b>szeretetvendégségünket december 18</b>-án tartjuk az Istentisztelet után. Erre az alkalomra mindenki hoz magával egy kis enni/innivalót és közösen elfogyasztjuk.<br>
+												Idén a karácsonyi <b>Istentisztelet december 25</b>-re esik. Azért, hogy támogassuk a családi ünnepléseket, az alkalom egy órával korábban, <b>9 órakor</b> kezdődik és így hamarabb is ér véget. :) 
+											</div>
+										</div>
+										<div class="panel panel-primary">
+											<div class="panel-heading" role="tab" id="heading5_5">
+												<h3 class="panel-title">Itt van az ősz, itt van újra, az ifik is indulnak szépen sorban...</h3>
+											</div>
+											<div class="panel-body">
+												Az ősz beköszöntével ismét elindulnak az ifik. A <b>MennyBe ifi</b> megváltozott időponttal <b>16:30-tól</b>, ám továbbra is
+												<b>keddenként</b> várja a <b>6-13 évesek</b>et szeptember 6-tól, míg a <b>Mini ifi (MiFi)</b> a már megszokott
+												<b>péntek</b>i <b>18 órá</b>s kezdéssel rajtol a <b>18-22 évesek</b> számára szeptember 16-tól (a szeptember 9-i alkalom a soproni túra miatt elmarad). Ha van kedved és időd, bátran csatlakozz a korosztályodnak megfelelő ifihez :)
+											</div>
+										</div>
                                         <div class="panel panel-default">
                                             <div class="panel-heading" role="tab" id="heading5_4">
                                                 <a data-toggle="collapse" data-parent="#accordion" href="#collapse5_4" aria-expanded="false" aria-controls="collapse5_4">
@@ -514,7 +536,7 @@
                         </div>
                         <h3>MennyBe ifi</h3>
                         <div class="col-details">
-                            <p class="text-justify"> A 9-13 évesek számára tavaly ősszel indult el egy új ifi. Kedden délután fél öt és fél hét között várjuk a lelkes ifjúságot :) </p>
+                            <p class="text-justify"> A 6-13 évesek számára tavaly ősszel indult el egy új ifi. Kedden délután fél öt és fél hét között várjuk a lelkes ifjúságot :) </p>
                         </div>
                     </div>
                 </div>
@@ -849,33 +871,36 @@
                         <div role="tabpanel" class="tab-pane active" id="hangok">
                             <div id="hang1" class="oszlopbal col-md-4 col-sm-12">
 
-                                <p><br>Csatlós Gábor 2016.11.20.</p>
-                                <img class="swap-audio" src="http://bekas.golgota.hu/assets/images/Tanítások/CsatlosGabor20161120.png"/>
                                 
-                                <p><br>Márkus Szilárd 2016.11.13.</p>
-                                <img class="swap-audio" src="http://bekas.golgota.hu/assets/images/Tanítások/MarkusSzilard20161113.png"/>
-                                
+                                <p><b>Monte Baker 2017.01.15.</b><br>Elfogadni Isten igéjét</p>
+                                <img class="swap-audio" src="http://bekas.golgota.hu/assets/images/Tanítások/MonteBaker20170115.png"/>
+                                <hr>
+                                <p><b>Márkus Szilárd 2017.01.08.</b><br>Hálaadás</p>
+                                <img class="swap-audio" src="http://bekas.golgota.hu/assets/images/Tanítások/MarkusSzilard20170108.png"/>
                                 
                             </div>
                             <div class="oszlopkozep col-md-4 col-sm-12">
 
-								<p><br>Márkus Szilárd 2016.11.06.</p>
-                                <img class="swap-audio" src="http://bekas.golgota.hu/assets/images/Tanítások/MarkusSzilard20161106.png"/>
-                                
-                                <p><br>Csatlós Gábor 2016.10.23.</p>
-                                <img class="swap-audio" src="http://bekas.golgota.hu/assets/images/Tanítások/CsatlosGabor20161023.png"/>
+								<p><b>Márkus Szilárd 2016.12.25.</b><br>Karácsony 2.0</p>
+                                <img class="swap-audio" src="http://bekas.golgota.hu/assets/images/Tanítások/MarkusSzilard20161225.png"/>
+                                <hr>
+                                <p><b>Baji Péter 2016.12.11.</b><br>Márk 16:9-20</p>
+                                <img class="swap-audio" src="http://bekas.golgota.hu/assets/images/Tanítások/BajiPeti20161211.png"/>
                                 
                             </div>
                             <div class="opszlopjobb col-md-4 col-sm-12">
-
-                                <p><br>Baji Péter 2016.10.16.</p>
-                                <img class="swap-audio" src="http://bekas.golgota.hu/assets/images/Tanítások/BajiPeti20161016.png"/>
+								
+                            	<p><b>Márkus Szilárd 2016.12.04.</b><br>Márk 16:1-8</p>
+                                <img class="swap-audio" src="http://bekas.golgota.hu/assets/images/Tanítások/MarkusSzilard20161204.png"/>
                                 
+                                <hr><br>
                             </div>
 
-                            <button type="button" class="btn btn-sm btn-info btn-lg" style="margin-top: 15px" onclick="window.open('felvetelek.html')">
+                            <button type="button" class="btn btn-info btn-lg" style="margin-top: 15px" onclick="window.open('felvetelek.html')">
 								Korábbi felvételek
 							</button>
+                        
+                        	<hr>
 
                         </div>
                         <div role="tabpanel" class="tab-pane" id="enek">
@@ -884,7 +909,7 @@
 								<i class="fa fa-download"></i> Letöltés
 							</button>
                             <p><br>A vetítőszolgálat oldalát <u><i><a href="http://vetitoboszorkany.golgota.hu">itt találod</a></i></u>, valamint
-                                <u><i><a href="http://vetitoboszorkany.golgota.hu/teljesboszi.exe">ide kattintva</a></i></u> letöltheted a vetítő boszorkány legfrissebb változatát, Kerkovics Krisztián jóvoltából.</p>
+                                <u><i><a href="http://vetitoboszorkany.golgota.hu/teljesboszi.exe">ide kattintva</a></i></u> letöltheted a vetítő boszorkány legfrissebb változatát, Kerkovits Krisztián jóvoltából.</p>
                         </div>
                     </div>
                 </div>
@@ -971,7 +996,7 @@
                         <h4 class="footer-title">Friss hírek <span class="title-under"></span></h4>
                         <div class="footer-content">
                             <ul class="tweets list-unstyled">
-                                <li class="tweet"><a href="#hirdetesek">Randi az Úrral alkalmunk időpontváltozás! </a> </li>
+                                <li class="tweet"><a href="#hirdetesek">Tavaszi Csendes Hétvége 2017 </a> </li>
                                 <li class="tweet"><a href="#hirdetesek">Karácsonyi Istentisztelet és szeretetvendégség időpontjai </a> </li>
                                 <li class="tweet"><a href="#hirdetesek">Becsöngettek az iskolában, így nálunk is elkezdődött az új ifis szezon :) </a> </li>
 
@@ -1013,7 +1038,7 @@
         </div>
         <div class="footer-bottom">
 
-            <div class="container text-right"> Békási Golgota © Minden jog fenntartva 2016 - készítette
+            <div class="container text-right"> Békási Golgota © Minden jog fenntartva 2017 - készítette
                 <i><a target="parent" href="mailto:dorqa95@gmail.com">&nbsp;Dóri</a></i>
             </div>
         </div>
@@ -1249,7 +1274,9 @@
     </div>
     
     <!--div#mappaX.modal.fade[role="dialog"]>div.modal-dialog.modal-lg>div.modal-content>div.modal-header>button.close[type="button" data-dismiss="modal"]{&times;}+h4.modal-title{MAPPA NEVE}^div.modal-body>div.container{Légy türelemmel míg a nagyméretű képek betöltődnek}>div#links>a[href="assets/images/mappaX/DSC_$$$.JPG" title="" data-gallery]*5>img[src="assets/images/mappaX/DSC_$$$_thumb.png" alt="$"]^^^^div.modal-footer>button.btn.btn-default[type="button" data-dismiss="modal"]{Bezárás}-->
-
+    
+    
+    
     <!--  Scripts
     ================================================== -->
     <!-- jQuery -->
@@ -1268,7 +1295,7 @@
     <script src="assets/js/bootstrap-image-gallery.min.js"></script>
     <!-- Template main javascript -->
     <script src="assets/js/main.js"></script>
-
+	
     <!-- Google map  -->
     <script defer src="http://maps.google.com/maps/api/js?key=AIzaSyA4jHrlBPO58SeKmrL2paYMb1dcNRD4n04&amp;libraries=places" type="text/javascript"></script>
     <!-- TODO Google Analytics: change UA-XXXXX-X to be your site's ID. -->

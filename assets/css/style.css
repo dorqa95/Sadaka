@@ -1212,3 +1212,8 @@ ul, ol {
 .modal-body .container {
     width: auto;
 }
+
+hr {
+	border: 0.01em solid;
+	color: #1f76bd;
+}
