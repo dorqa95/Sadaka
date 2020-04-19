@@ -918,7 +918,22 @@ include 'header.php'; ?>
 						<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#csh20170603"><img src="assets/images/TavasziCSH2017/DSC_030_thumb.png" style="max-height: 70px;" alt=""><br>Tavaszi CSH 2017</button>
 					</div>
 					<div role="tabpanel" class="tab-pane active" id="hangok">
-						<p id="hang1">Feltöltés alatt... Hamarosan Youtube-on meghallgatható az összes korábbi felvétel!</p>
+						<p id="hang1">
+						
+						</p>
+						<div class="visible-xs visible-sm">
+							<iframe width="320" height="180" src="https://www.youtube.com/embed/videoseries?list=PLWBVinGs0l4kHpALpr9TViY-W_JcBMQ5z&rel=0&enablejsapi=1&modestbranding=1&disablekb=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						</div>
+						<div class="hidden-xs hidden-sm">
+							<iframe width="853" height="480" src="https://www.youtube.com/embed/videoseries?list=PLWBVinGs0l4kHpALpr9TViY-W_JcBMQ5z&rel=0&enablejsapi=1&modestbranding=1&disablekb=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						</div>
+						<p>
+							<br>
+							Vagy Youtube-on meghallgathatók a felvételek
+							<a href="https://www.youtube.com/playlist?list=PLWBVinGs0l4kHpALpr9TViY-W_JcBMQ5z" target="_blank"><b>ide kattintva</b></a>!
+							<br>
+							További felvételek feltöltése folyamatban...
+						</p>
 						<!--div id="hang1" class="oszlopbal col-md-4 col-sm-12">
 							
 							<div class="none-break">
