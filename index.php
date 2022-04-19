@@ -68,19 +68,22 @@ include 'header.php'; ?>
 				<div class="col-md-3 col-sm-6">
 					<div class="about-us-col">
 						<div class="col-icon-wrapper"> <img src="assets/images/icons/alkalmaink.png" style="max-height: 80px;" alt=""> </div>
-						<h3 class="col-title">Alkalmunk</h3>
+						<h3 class="col-title">Alkalmaink</h3>
 						<div class="col-details">
 							<br>
 							<ul style="margin-left: -20px;">
 								<li>
-									Vasárnap 10 órától van az Istentisztelet, mely alatt gyermekfelügyeletet biztosítunk az ovisoknak és vasárnapi iskolát is tartunk az iskolás korúaknak
-								</li>
-								<!--li>
-									Hétfő 17 óra MennyBE ifi (6-13 éveseknek)
+									</strong> <i><a href="#alkalom"> Vasárnap 10 órától kétnyelvű Istentisztelet</a></i>
 								</li>
 								<li>
-									Péntek 18 óra Mini ifi (18-22 éveseknek)
-								</li-->
+									</strong> <i><a href="#alkalom"> Vasárnap 10 órától Vasárnapi Iskola és gyermekfelügyelet</a></i>
+								</li>
+								<li>
+									</strong> <i><a href="#alkalom"> Csütörtök 18 órától angol nyelvű Biblia tanulmányozás</a></i>
+								</li>
+								<li>
+									</strong> <i><a href="#alkalom"> Havonta Női alkalom</a></i>
+								</li>
 							</ul>
 						</div>
 					</div>
@@ -106,9 +109,10 @@ include 'header.php'; ?>
 					<h3 class="col-title">Friss és ropogós</h3>
 					<div class="col-details">
 						<p>
-							<br><strong>Hirdetés: </strong> <i><a href="#hir1"> Online Istentisztelet! </a></i>
-							<br><strong>Hanganyag: </strong> <i><a href="#hangok"> Vasárnapi IT</a></i>
-							<br><strong>Képek: </strong> <i><a href="" data-toggle="modal" data-target="#csh20170603"> Tavaszi CSH 2017</a></i>
+							<br><strong>Hirdetés: </strong> <i><a href="#hir1"> <br> Pünkösdi Csendeshétvége Vajtán</a></i>
+							<br><strong>Hirdetés: </strong> <i><a href="#hir2"> <br> Golgota Férfi Hétvége Vajtán</a></i>
+							<!--<br><strong>Hanganyag: </strong> <i><a href="#hangok"> Vasárnapi IT</a></i>-->
+							<!--<br><strong>Képek: </strong> <i><a href="" data-toggle="modal" data-target="#csh20170603"> Tavaszi CSH 2017</a></i>-->
 							<a href="#media">
 								<i>
 									<br>
@@ -130,81 +134,27 @@ include 'header.php'; ?>
 		<h2 class="title-style-1">Hirdetések <span class="title-under"></span></h2>
 		<div class="panel panel-primary" id="hir1">
 			<div class="panel-heading">
-				<h3 class="panel-title">Online Istentisztelet!</h3>
+				<h3 class="panel-title">Pünkösdi Csendeshétvége Vajtán</h3>
 			</div>
 			<div class="panel-body">
-				Sziasztok!
-				<br><br>
-				A jelenlegi helyzetre tekintettel holnap kipróbáljuk az online Istentisztelet. Nem a gyülekezetben lesz az alkalom, hanem egy Zoom nevű programot használunk, amivel max. 100-an tudunk egyszerre kapcsolatban lenni, legfeljebb 45 perc időtartamra. A részvétel a számítógépetek/telefonotok kameráján és mikrofonján keresztül fog megtörténni. Kérem, aki épp nem beszél, kapcsolja ki a mikrofonját, hogy elkerüljük a háttérzajokat és a gerjedést.
-				<br><br>
-				Az alkalom menete:
-				<br><br>
-				1. Igehirdetés 10:00 - 10:45<br>
-				A jegyzetet igyekszünk angolul elküldeni, fordítás nem lesz.<br>
-				2. Megosztás, beszélgetés, imakérések 11:00 - 11:45<br>
-				Fordítás nem lesz folyamatosan.
-				<br><br>
-				Szilárd a két részre külön meghívó linket fog küldeni délután. Ha a megadott időben bejelentkeztek, részt tudtok venni az alkalmon.
+				A 2022. évi Pünkösdi Csendeshétvégét Vajtán tartjuk június 3 (péntek) - június 6. (hétfő) között.<br>
+				Jelentkezési határidő: május 22.
 				<br><br>
 				=====================
 				<br><br>
-				Hi everyone,
-				<br><br>
-				Due to these days happening we try to make an online Sunday service. The service won't be held in the church building but we will use a software called Zoom. It is allowed to join up to 100 user for max. 45 minutes. You can take part on the session with your camera and mic belongs to your PC/cellphone. Please so kind to mute your mic while not speaking to avoid unwanted background noises.
-				<br><br>
-				The schedule of the service:
-				<br><br>
-				1. Preaching 10:00 - 10:45.<br>
-				We are planning to send the notes in English. There will be no translation.
-				<br><br>
-				2. Sharing, conversation, prayer requests 11:00 - 11:45.<br>
-				There will be no translation continuously.
-				<br><br>
-				Szilárd will send an invitation link for all the two parts in the afternoon. If you login at the scheduled time you can join to the service.
-				<br><br>
-				Legyetek áldottak/Be bleesed
+				We plan the Church Conference in 2022. on the Pentecostal Holiday between 3th June - 6th June at Vajta. <br>
+				Registration deadline: 22th May. <br>
 			</div>
 		</div>
-		<div class="panel panel-primary">
+		<div class="panel panel-primary" id="hir2">
 			<div class="panel-heading">
-				<h3 class="panel-title">Ünnepi köszöntő! (Etelka néni Karácsonyi verse)</h3>
+				<h3 class="panel-title">Golgota Férfi Hétvége Vajtán</h3>
 			</div>
 			<div class="panel-body">
-				Régen volt míg megjósolták,<br>
-				Isten fia eljön hozzánk.<br>
-				Számolták az embereket,<br>
-				És a szülőhelyre mentek.<br>
-				<br>
-				Mária már jóterhesen<br>
-				Szülőföldre kellett menjen<br>
-				A város már úgy meg tellett,<br>
-				Istállóban kaptak helyet.<br>
-				<br>
-				Felettük csillag ragyogott<br>
-				Kis Jézusra rámutatott<br>
-				Angyal szállott pásztorokhoz:<br>
-				"Ne féljetek jóhírt hozok!<br>
-				<br>
-				Megszületett Isten fia<br>
-				Ki a békességet hozta.<br>
-				Menjetek el Betlehembe,<br>
-				Rátaláltok a kis Dedre!"<br>
-				<br>
-				Felfigyeltek a királyok<br>
-				És egy isteni jelt láttak<br>
-				A csillag majd utat mutat<br>
-				Nem tévesztjük el az utat.<br>
-				<br>
-				Betlehembe odaérve,<br>
-				Jászol előtt letérdelve<br>
-				Imádták az Isten fiát.<br>
-				Ki a földre szeretetet ád.<br>
-				<br>
-				Hó csillog most minden ágon<br>
-				Azóta van szent karácsony<br>
-				Békében és szeretetben<br>
-				Legyen Jézus szívetekben.<br>
-				Ezt kívánva néktek Etelka nénétek.
+				Országos Golgota konferencia lesz Vajtán, "Fordulat" címmel 2022. május 6-8. között.
+				<br><br>
+				<li><a target="blank" href="https://www.facebook.com/events/s/fordulat-ferfi-konferencia/1122024325216526/">További információk</a></li>
+				<li><a target="blank" href="https://docs.google.com/forms/d/e/1FAIpQLScaY6hbSQyeld4aRsN0807e9Ei9mkX8xrYK8c2Di6kChgt-qQ/viewform?fbclid=IwAR1JvRmK5bZHaWzHCe4qHatCzprDkfJjKGIjUrPbZvwiTMMU3l4HxmJ9Fu0">Jelentkezési lap</a></li>
 			</div>
 		</div>
 		<!--div class="panel panel-primary">
@@ -216,10 +166,10 @@ include 'header.php'; ?>
 			</div>
 		</div-->
 		
-		<div class="col-md-12 fadeIn animate-onscroll">
-			<div class="panel-group" role="tablist" aria-multiselectable="true">
+		<!--<div class="col-md-12 fadeIn animate-onscroll">
+			<div class="panel-group" role="tablist" aria-multiselectable="true"> -->
 				<!--amennyiben itt van egy id=accordion záródik auto-->
-				<div class="panel panel-default">
+		<!--		<div class="panel panel-default">
 					<div class="panel-heading" role="tab" id="heading4_1" data-toggle="collapse" data-parent="#accordion" href="#collapse4_1" aria-expanded="false" aria-controls="collapse4_1">
 						<h4 class="panel-title"><i class="fa fa-plus"></i>
 							Korábbi híreink
@@ -432,7 +382,7 @@ include 'header.php'; ?>
 					</div>
 				</div>
 			</div>
-		</div>
+		</div> -->
 	</div>
 </div>
 <!-- Hirdetések vége -->
@@ -441,7 +391,7 @@ include 'header.php'; ?>
 <div class="section-home our-causes animate-onscroll fadeIn">
 	<div class="container" id="naptar">
 		<h2 class="title-style-1">Naptár <span class="title-under"></span></h2>
-		<iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;wkst=2&amp;hl=hu&amp;bgcolor=%231f76bd&amp;src=uh01l793tb1h98bps87sdai0f0%40group.calendar.google.com&amp;color=%2304365f&amp;ctz=Europe%2FBudapest" style="border-width:0; border-radius: 6px; width: 100%; height: 100vh" ></iframe>
+		<iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;wkst=2&amp;hl=hu&amp;bgcolor=%231f76bd&amp;src=uh01l793tb1h98bps87sdai0f0%40group.calendar.google.com&amp;color=%2304365f&amp;ctz=Europe%2FBudapest" style="border-width:0; border-radius: 6px; width: 100%; height: 500px" ></iframe>
 	</div>
 </div>
 <!-- Naptár vége -->
@@ -461,7 +411,9 @@ include 'header.php'; ?>
 					</div>
 					<div id="collapse1_1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading1_1">
 						<div class="panel-body">
-							<p class="text-justify">A gyülekezetet 2003-ban alapították tradícionális hátterű keresztény fiatalok. Lelkipásztunk 2009-től Márkus Szilárd. <br>
+							<p class="text-justify">
+								A gyülekezetet 2003-ban alapították tradícionális hátterű keresztény fiatalok. Lelkipásztunk
+								2009-től Márkus Szilárd. <br>
 							</p>
 						</div>
 					</div>
@@ -476,8 +428,8 @@ include 'header.php'; ?>
 						<div class="panel-body">
 							<p class="text-justify">Gyülekezetünk nagy hangsúlyt fektet a családosok és a gyermekek támogatására.
 								<u><a target="blank" href="https://kima.hu/">Alapítványunk</a></u> üzemeltet például keresztény bölcsődét
-								<u><a target="blank" href="https://barkacsana.kima.hu/">Bárka Családi Napközi</a></u> néven. Fiatal keresztények számára ifjúsági alkalmakat szervezünk (ifik), Istentisztelet alatt van gyermekfelügyelet és vasárnapi
-								iskola is. Fontosnak tartjuk, hogy az ország legnagyobb lakótelepére csöppenve mécsesként világítsunk az itt élők számára.</p>
+								<u><a target="blank" href="https://barkacsana.kima.hu/">Bárka Családi Napközi</a></u> néven. Az Istentisztelet alatt van gyermekfelügyeletet és vasárnapi
+								iskolát is tartunk. Fontosnak tartjuk, hogy az ország legnagyobb lakótelepére csöppenve mécsesként világítsunk az itt élők számára.</p>
 						</div>
 					</div>
 				</div>
@@ -489,9 +441,12 @@ include 'header.php'; ?>
 					</div>
 					<div id="collapse1_3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading1_3">
 						<div class="panel-body">
-							<p class="text-justify">Istentiszteleten kívül is gyakran találkozunk. Évente háromszor szervezünk gyülekezeti csendes hétvégét, illetve a fiataloknak nyáron tábort. Ezen kívül gyakran megyünk ki a természetbe piknikezni, kirándulni, sportolni,
-								valamint szoktunk közös programokat szervezni a környékbeli Golgotákkal (pl.: Vác, Esztergom, Belváros :P). Gyülekezeti tagjaink a házicsoportokban tudnak kisebb közösségben
-								imádkozni, beszélgetni, dicsőíteni havi rendszerességgel.</p>
+							<p class="text-justify">
+								Minden hónap utolsó vasárnapján Úrvacsorai Istentiszteletet tartunk,
+								szeretetvendégséggel. Ennek során lehetőségünk van közös étkezésre és beszélgetésre,
+								ismerkedésre. Évente szervezünk gyülekezeti csendes hétvégét. Emellett időnként egyéb
+								programokat is szervezünk pl.: társasjátékozás, piknikezés, kirándulás, kajakozás.
+							</p>
 						</div>
 					</div>
 				</div>
@@ -505,8 +460,7 @@ include 'header.php'; ?>
 						<div class="panel-body">
 							<ul>
 								<li><a target="blank" href="https://www.facebook.com/groups/bekasigolgota/">Gyülekezetünk facebook csoportja</a></li>
-								<li><a target="blank" href="http://bekasifi.blogspot.hu/">A Mini ifi blogja</a></li>
-								<li><a target="blank" href="https://webzegezis.hu/">Baji Peti (gyülekezeti vezetőnk) blogja</a></li>
+								<li><a target="blank" href="https://webzegezis.hu/">Baji Péter blogja</a></li>
 								<li><a target="blank" href="https://kima.hu/">Alapítványunk oldala</a></li>
 								<li><a target="blank" href="https://barkacsana.kima.hu/">Bárka Családi Napközi honlapja</a></li>
 								<li><a target="blank" href="https://vetitomagus.hu/">Vetítőszolgálat oldala</a></li>
@@ -556,12 +510,16 @@ include 'header.php'; ?>
 			<div class="row" id="alkalom">
 				<h2 class="title-style-1">Alkalmaink<span class="title-under"></span></h2>
 			</div>
-			<div class=" col-md-offset-3 col-sm-offset-0 col-md-3 col-sm-6">
+			<div class=" col-md-3 col-sm-6"> <!--col-md-offset-3 col-sm-offset-0 col-md-3 col-sm-6-->
 				<div class="about-us-col">
 					<h3 class="col-title">Istentisztelet</h3>
-					<div class="col-details">
+					<div class="col-details"
 						<br>
-						<p class="text-justify"> Gyülekezeti Istentiszteletünk minden vasárnap délelőtt 10 órakor kezdődik. Az alkalom elején dicsőítünk, majd Biblia tanulmányozás következik. A tanítás után egyéni bizonyságtételekre nyílik lehetőség. </p>
+					<p class="text-justify">
+						Gyülekezeti Istentiszteletünk minden vasárnap délelőtt 10 órakor kezdődik, melyet magyar és angol
+						nyelven tartunk. Az alkalom elején dicsőítünk, majd Biblia tanulmányozás következik. A tanítás után
+						egyéni bizonyságtételekre és imakérésre nyílik lehetőség.
+					</p>
 					</div>
 				</div>
 			</div>
@@ -570,25 +528,32 @@ include 'header.php'; ?>
 					<h3 class="col-title">Vasárnapi iskola</h3>
 					<div class="col-details">
 						<br>
-						<p class="text-justify"> Az Istentisztelet ideje alatt a gyermekeknek külön alkalom van 2 különböző korosztály számára is. A nagyobbaknak 6-13 éveseknek különböző kreatív foglalkozásokat tartunk, a kisebbeknek (0-5 évesek) a játszószobában biztosítunk
-							felügyeletet.
+						<p class="text-justify">
+							Az Istentisztelet ideje alatt a gyermekeknek külön alkalom van 2 különböző korosztály számára is.
+							A nagyobbaknak 6-13 éveseknek különböző kreatív foglalkozásokat tartunk, a kisebbeknek (0-5
+							évesek) a játszószobában biztosítunk felügyeletet.
 						</p>
-					</div>
-				</div>
-			</div>
-			<!--div class="col-md-3 col-sm-6">
-				<div class="about-us-col">
-					<h3>Mini ifi (MiFi)</h3>
-					<div class="col-details">
-						<p class="text-justify"> Külön ifi alkalom 18-22 évesek részére pénteken 18 órától. Időnként hétvégéken is találkozunk, kirándulást szervezünk. </p>
 					</div>
 				</div>
 			</div>
 			<div class="col-md-3 col-sm-6">
 				<div class="about-us-col">
-					<h3>MennyBe ifi</h3>
+					<h3>Bible Chat</h3>
 					<div class="col-details">
-						<p class="text-justify"> A 6-13 évesek számára 2015 ősszel indult el egy ifi. Idén hétfőn délután öt és hét között várjuk a lelkes ifjúságot :) </p>
+						<p class="text-justify">
+							Angol nyelvű beszélgetés a Bibliáról, csütörtökönként, nem csak hívőknek!
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3 col-sm-6">
+				<div class="about-us-col">
+					<h3>Női alkalom</h3>
+					<div class="col-details">
+						<p class="text-justify">
+							Beszélgetős alkalom közös ebéddel hölgyeknek, havi rendszerességgel, a vasárnapi Istentisztelet
+							után. Az aktuális dátumot és helyszínt a naptárban találod.
+						</p>
 					</div>
 				</div>
 			</div-->
@@ -611,9 +576,14 @@ include 'header.php'; ?>
 					</div>
 					<div id="collapse2_1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading2_1">
 						<div class="panel-body">
-							<p class="text-justify">A Golgota Gyülekezet az amerikai eredetű Calvary Chapel magyarországi gyülekezete. Magyarországon 1991 óta működő protestáns felekezet. Bejegyzett egyházként 1994 óta működik. Hazánkban több gyülekezete is van. Igehirdetéseken
-								a fő alapelvünk, hogy a Bibliát versről-versre tanítjuk. Az egyház számos keresztény misszióban vesz részt, Vajtán saját Bibliaiskolát tart fenn. Gyülekezeteink ma már megtalálhatóak az ország legtöbb nagy városában,
-								számos településen jelenleg is zajlik új közösségek elindítása. </p>
+							<p class="text-justify">
+								A Golgota Gyülekezet az amerikai eredetű Calvary Chapel magyarországi gyülekezete.
+								Magyarországon 1991 óta működő protestáns felekezet. Bejegyzett egyházként 1994 óta működik.
+								Hazánkban több gyülekezete is van. Igehirdetéseken a fő alapelvünk, hogy a Bibliát
+								versről-versre tanítjuk. Az egyház számos keresztény misszióban vesz részt, Vajtán saját
+								Bibliaiskolát tart fenn. Gyülekezeteink ma már megtalálhatóak az ország legtöbb nagy
+								városában, számos településen jelenleg is zajlik új közösségek elindítása.
+							</p>
 						</div>
 					</div>
 				</div>
@@ -658,7 +628,8 @@ include 'header.php'; ?>
 							</div>
 							<div class="col-lg-4">
 								<ul>
-									<li><a target="blank" href="http://golgotagyor.blogspot.com/">Győr</a></li>
+									<li><a target="blank" href="http://www.golgotagardony.hu/">Gárdony</a></li>
+									<li><a target="blank" href="https://golgotagyor.hu/">Győr</a></li>
 									<li><a target="blank" href="http://kaposvar.golgota.hu/">Kaposvár</a></li>
 									<li><a target="blank" href="https://kecskemet.golgota.hu/index.php/hu/">Kecskemét</a></li>
 									<li><a target="blank" href="http://www.halado.hu/">Miskolc</a></li>
