@@ -138,251 +138,42 @@ include 'header.php'; ?>
 			</div>
 			<div class="panel-body">
 				A 2022. évi Pünkösdi Csendeshétvégét Vajtán tartjuk június 3 (péntek) - június 6. (hétfő) között.<br>
-				Jelentkezési határidő: május 22.
-				<br><br>
-				=====================
-				<br><br>
-				We plan the Church Conference in 2022. on the Pentecostal Holiday between 3th June - 6th June at Vajta. <br>
-				Registration deadline: 22th May. <br>
+				Jelentkezési határidő: május 22.<br>
+				<ul>
+					<li><a target="blank" href="https://docs.google.com/document/d/1GbyWDW5AD9aO4t8pLI0DEn6N4IZPU9UlGte8XkN1PH4/edit?usp=sharing">További információk</a></li>
+					<li><a target="blank" href="https://docs.google.com/forms/d/1iingwukpxe6bI9uKdrS-JMu4eIj_bv-IxnAsg1-PaHc/edit?usp=sharing">Jelentkezési lap</a></li>
+					<li><a target="blank" href="https://docs.google.com/document/d/1xK6wssBQxeAy8Z1QZcnsG6PF-GNLyMly/edit?usp=sharing&ouid=117398403430155988672&rtpof=true&sd=true">Vajta házirend</a></li>
+				</ul>
+				==========================<br>
+				We plan the Church Retreat in 2022. on the Pentecostal Holiday between 3th June - 6th June at Vajta.<br>
+				Registration deadline: 22th May.<br>
+				<ul>
+					<li><a target="blank" href="https://docs.google.com/document/d/1GbyWDW5AD9aO4t8pLI0DEn6N4IZPU9UlGte8XkN1PH4/edit?usp=sharing">For more information</a></li>
+					<li><a target="blank" href="https://docs.google.com/forms/d/1iingwukpxe6bI9uKdrS-JMu4eIj_bv-IxnAsg1-PaHc/edit?usp=sharing">Registration form</a></li>
+				</ul>
 			</div>
 		</div>
 		<div class="panel panel-primary" id="hir2">
 			<div class="panel-heading">
-				<h3 class="panel-title">Golgota Férfi Hétvége Vajtán</h3>
+				<h3 class="panel-title">Golgota Férfi Hétvége Vajtán - MEGTELT</h3>
 			</div>
 			<div class="panel-body">
 				Országos Golgota konferencia lesz Vajtán, "Fordulat" címmel 2022. május 6-8. között.
-				<br><br>
-				<li><a target="blank" href="https://www.facebook.com/events/s/fordulat-ferfi-konferencia/1122024325216526/">További információk</a></li>
-				<li><a target="blank" href="https://docs.google.com/forms/d/e/1FAIpQLScaY6hbSQyeld4aRsN0807e9Ei9mkX8xrYK8c2Di6kChgt-qQ/viewform?fbclid=IwAR1JvRmK5bZHaWzHCe4qHatCzprDkfJjKGIjUrPbZvwiTMMU3l4HxmJ9Fu0">Jelentkezési lap</a></li>
+				<br>
+				<ul>
+					<li><a target="blank" href="https://www.facebook.com/events/s/fordulat-ferfi-konferencia/1122024325216526/">További információk</a></li>
+					<li><a target="blank" href="https://docs.google.com/forms/d/e/1FAIpQLScaY6hbSQyeld4aRsN0807e9Ei9mkX8xrYK8c2Di6kChgt-qQ/viewform?fbclid=IwAR1JvRmK5bZHaWzHCe4qHatCzprDkfJjKGIjUrPbZvwiTMMU3l4HxmJ9Fu0">Jelentkezési lap</a></li>
+				</ul>
 			</div>
 		</div>
 		<!--div class="panel panel-primary">
 			<div class="panel-heading">
-				<h3 class="panel-title">Ismét beköszöntött az ősz, ami annyit jelent, hogy eljött újra az ifik ideje! :)</h3>
+				<h3 class="panel-title">Új hír cím</h3>
 			</div>
 			<div class="panel-body">
-			Szeptembertől újra indulnak az ifik két korcsoport számára, a MennyBe ifi új időpontban hétfőnként 17 órától várja a 6-13 éves korosztályt, a Mini Ifi (18-22 éves korcsoportnak) pedig változatlanul pénteken van gyülekezetünkben 18 órától.
+			Új hír szöveg
 			</div>
 		</div-->
-		
-		<!--<div class="col-md-12 fadeIn animate-onscroll">
-			<div class="panel-group" role="tablist" aria-multiselectable="true"> -->
-				<!--amennyiben itt van egy id=accordion záródik auto-->
-		<!--		<div class="panel panel-default">
-					<div class="panel-heading" role="tab" id="heading4_1" data-toggle="collapse" data-parent="#accordion" href="#collapse4_1" aria-expanded="false" aria-controls="collapse4_1">
-						<h4 class="panel-title"><i class="fa fa-plus"></i>
-							Korábbi híreink
-						</h4>
-					</div>
-					<div id="collapse4_1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading4_1">
-						<div class="panel-body">
-							<div class="col-md-12 fadeIn animate-onscroll">
-								<div class="panel-group" role="tablist" aria-multiselectable="true">
-									<div class="panel panel-primary">
-										<div class="panel-heading" role="tab" id="heading5_13" data-toggle="collapse" data-parent="#accordion" href="#collapse5_13" aria-expanded="false" aria-controls="collapse5_13">
-											<h4 class="panel-title"><i class="fa fa-plus"></i>
-												Pünkösdi Csendes Hétvége (CSH) 2019 infók
-											</h4>
-										</div>
-										<div id="collapse5_13" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading5_13">
-											<div class="panel-body">
-												Idén 2019. június 8-10. szombattól hétfőig Vajtán tartjuk Pünkösdi Csendes Hétvégénket. Van lehetőség rá már pénteken érkezni.<br>
-												Jelentkezési határidő 2019.05.26. vasárnap! További információk a pdf-ben.<br>
-												<button type="submit" class="btn btn-sm btn-info btn-lg" onclick="window.open('assets/media/2019_tavaszi_CSH_infók.pdf')">
-													<i class="fa fa-download"></i> Információk
-												</button>
-												&nbsp;
-												<button type="submit" class="btn btn-sm btn-info btn-lg" onclick="window.open('assets/media/2019_tavaszi_CSH_házirend.pdf')">
-													<i class="fa fa-download"></i> Házirend
-												</button>
-											</div>
-										</div>
-									</div>
-									<div class="panel panel-primary">
-										<div class="panel-heading" role="tab" id="heading5_12" data-toggle="collapse" data-parent="#accordion" href="#collapse5_12" aria-expanded="false" aria-controls="collapse5_12">
-											<h4 class="panel-title"><i class="fa fa-plus"></i>
-												Őszi Csendes Hétvége (CSH) 2017 infók
-											</h4>
-										</div>
-										<div id="collapse5_12" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading5_12">
-											<div class="panel-body">
-												Az őszi Csendes Hétvégénket 2017. szeptember 29. péntektől október 1. vasárnapig fogjuk tartani Inárcson. További információk a pdf-ben találhatók ;) <br>
-												<button type="submit" class="btn btn-sm btn-info btn-lg" onclick="window.open('assets/media/2017_őszi_CSH_infók.pdf')">
-													<i class="fa fa-download"></i> Információk
-												</button>
-												&nbsp;
-												<button type="submit" class="btn btn-sm btn-info btn-lg" onclick="window.open('assets/media/2017_őszi_CSH_napirend.pdf')">
-													<i class="fa fa-download"></i> Napirend
-												</button>
-											</div>
-										</div>
-									</div>
-									<div class="panel panel-primary">
-										<div class="panel-heading" role="tab" id="heading5_11" data-toggle="collapse" data-parent="#accordion" href="#collapse5_11" aria-expanded="false" aria-controls="collapse5_11">
-											<h4 class="panel-title"><i class="fa fa-plus"></i>
-												Őszi Csendes Hétvége (CSH) 2017 infók
-											</h4>
-										</div>
-										<div id="collapse5_11" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading5_11">
-											<div class="panel-body">
-												Az őszi Csendes Hétvégénket 2017. szeptember 29. péntektől október 1. vasárnapig fogjuk tartani Inárcson. További információk a pdf-ben találhatók ;) <br>
-												<button type="submit" class="btn btn-sm btn-info btn-lg" onclick="window.open('assets/media/2017_őszi_CSH_infók.pdf')">
-													<i class="fa fa-download"></i> Információk
-												</button>
-												&nbsp;
-												<button type="submit" class="btn btn-sm btn-info btn-lg" onclick="window.open('assets/media/2017_őszi_CSH_napirend.pdf')">
-													<i class="fa fa-download"></i> Napirend
-												</button>
-											</div>
-										</div>
-									</div>
-									<div class="panel panel-primary">
-										<div class="panel-heading" role="tab" id="heading5_10" data-toggle="collapse" data-parent="#accordion" href="#collapse5_10" aria-expanded="false" aria-controls="collapse5_10">
-											<h4 class="panel-title"><i class="fa fa-plus"></i>
-												Itt a nyár! :)
-											</h4>
-										</div>
-										<div id="collapse5_10" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading5_10">
-											<div class="panel-body">
-												A nyár beköszöntével az ifi alkalmak szeptemberig tünetelnek, a vasárnapi Istentiszteletekre viszont 10 órás kezdettel mindenkit sok szeretettel várunk!
-											</div>
-										</div>
-									</div>
-									<div class="panel panel-primary">
-										<div class="panel-heading" role="tab" id="heading5_9" data-toggle="collapse" data-parent="#accordion" href="#collapse5_9" aria-expanded="false" aria-controls="collapse5_9">
-											<h4 class="panel-title"><i class="fa fa-plus"></i>
-												Szerda esti alkalmak vége
-											</h4>
-										</div>
-										<div id="collapse5_9" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading5_9">
-											<div class="panel-body">
-												Randi az Úrral alkalmainknak ettől a héttől kezdve vége, azaz mostantól nem lesz szerda esténként közös imádkozás.
-											</div>
-										</div>
-									</div>
-									<div class="panel panel-primary">
-										<div class="panel-heading" role="tab" id="heading5_8" data-toggle="collapse" data-parent="#accordion" href="#collapse5_8" aria-expanded="false" aria-controls="collapse5_8">
-											<h4 class="panel-title"><i class="fa fa-plus"></i>
-												Tavaszi Csendes Hétvége (CSH) 2017
-											</h4>
-										</div>
-										<div id="collapse5_8" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading5_8">
-											<div class="panel-body">
-												A mellékletben megtalálod az idei Tavaszi Csendes Hétvége részleteit.
-												Időpont: 2017. június 3-5, pünkösdi hétvége.<br><br>
-												<button type="submit" class="btn btn-sm btn-info btn-lg" onclick="window.open('assets/media/Információ_20170113.pdf')">
-													<i class="fa fa-download"></i> Részletek letöltése pdf-ben
-												</button>
-											</div>
-										</div>
-									</div>
-									<div class="panel panel-primary">
-										<div class="panel-heading" role="tab" id="heading5_7" data-toggle="collapse" data-parent="#accordion" href="#collapse5_7" aria-expanded="false" aria-controls="collapse5_7">
-											<h4 class="panel-title"><i class="fa fa-plus"></i>
-												Időpontváltozás: szerda esti imaalkalmak
-											</h4>
-										</div>
-										<div id="collapse5_7" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading5_7">
-											<div class="panel-body">
-												Randi az Úrral alkalmainkat mostantól egy fél órábban korábban kezdjük, így szerda esténként 8 és 9 között várunk minden kedves érdeklődőt, egy jó kis imádkozásra ;)
-											</div>
-										</div>
-									</div>
-									<div class="panel panel-primary">
-										<div class="panel-heading" role="tab" id="heading5_6" data-toggle="collapse" data-parent="#accordion" href="#collapse5_6" aria-expanded="false" aria-controls="collapse5_6">
-											<h4 class="panel-title"><i class="fa fa-plus"></i>
-												Karácsonyi Istentisztelet és szeretetvendégség időpontjai
-											</h4>
-										</div>
-										<div id="collapse5_6" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading5_6">
-											<div class="panel-body">
-												Karácsonyi <b>szeretetvendégségünket december 18</b>-án tartjuk az Istentisztelet után. Erre az alkalomra mindenki hoz magával egy kis enni/innivalót és közösen elfogyasztjuk.<br>
-												Idén a karácsonyi <b>Istentisztelet december 25</b>-re esik. Azért, hogy támogassuk a családi ünnepléseket, az alkalom egy órával korábban, <b>9 órakor</b> kezdődik és így hamarabb is ér véget. :)
-											</div>
-										</div>
-									</div>
-									<div class="panel panel-primary">
-										<div class="panel-heading" role="tab" id="heading5_5" data-toggle="collapse" data-parent="#accordion" href="#collapse5_5" aria-expanded="false" aria-controls="collapse5_5">
-											<h4 class="panel-title"><i class="fa fa-plus"></i>
-												Itt van az ősz, itt van újra, az ifik is indulnak szépen sorban...
-											</h4>
-										</div>
-										<div id="collapse5_5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading5_5">
-											<div class="panel-body">
-												Az ősz beköszöntével ismét elindulnak az ifik. A <b>MennyBe ifi</b> megváltozott időponttal <b>16:30-tól</b>, ám továbbra is <b>keddenként</b> várja a <b>6-13 évesek</b>et szeptember 6-tól, míg a <b>Mini ifi (MiFi)</b> a már megszokott <b>péntek</b>i <b>18 órá</b>s kezdéssel rajtol a <b>18-22 évesek</b> számára szeptember 16-tól (a szeptember 9-i alkalom a soproni túra miatt elmarad). Ha van kedved és időd, bátran csatlakozz a korosztályodnak megfelelő ifihez :)
-											</div>
-										</div>
-									</div>
-									<div class="panel panel-default">
-										<div class="panel-heading" role="tab" id="heading5_4" data-toggle="collapse" data-parent="#accordion" href="#collapse5_4" aria-expanded="false" aria-controls="collapse5_4">
-											<h4 class="panel-title"><i class="fa fa-plus"></i>
-												Randi az Úrral alkalmak szerda esténként
-											</h4>
-										</div>
-										<div id="collapse5_4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading5_4">
-											<div class="panel-body">
-												Gyülekezetünk új állandó alkalmakat indít <b>szerda esténként 8:30-tól 9:30-ig</b>. A program szigorúan csak imádkozásról szól. Fél 9-től lehet érkezni, utána lehet közösen és egyénileg is imádkozni. Fix forgatókönyv nincsen, az Úr vezeti az alkalmat. :) (A kezdés szándékosan lett ilyen késői időre téve, hogy a családosok is el tudjanak jönni, az altatás után...)
-											</div>
-										</div>
-									</div>
-									<div class="panel panel-default">
-										<div class="panel-heading" role="tab" id="heading5_3" data-toggle="collapse" data-parent="#accordion" href="#collapse5_3" aria-expanded="false" aria-controls="collapse5_3">
-											<h4 class="panel-title"><i class="fa fa-plus"></i>
-												Kirándulás a Pilisben (2016. november 26. )
-											</h4>
-										</div>
-										<div id="collapse5_3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading5_3">
-											<div class="panel-body">
-												Gyülekezetünk <b>november 26-án</b>, szombaton kirándulni megy a Pilisbe a következő útvonalon:
-												Dömöskapu - Lajosforrás - Holdvilág árok - Kiskovácsi - Pomáz - Édes otthon. Találkozó Szentendrén 8:50-kor, busz indulás 9:10-kor. Kirándulás hossza: 10-12 km. Útiköltségek: Bp-en kívüli HÉV és volánjegyek: felnőtt: 1060 ft, diák és nyugdíjas: 530 ft. Visszaérkezés: délután 15-16 óra körül Békásmegyer környékére.
-											</div>
-										</div>
-									</div>
-									<div class="panel panel-default">
-										<div class="panel-heading" role="tab" id="heading5_2" data-toggle="collapse" data-parent="#accordion" href="#collapse5_2" aria-expanded="false" aria-controls="collapse5_2">
-											<h4 class="panel-title"><i class="fa fa-plus"></i>
-												Alapítványi stand Pünkösdfürdőn (2016. szeptember 17. )
-											</h4>
-										</div>
-										<div id="collapse5_2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading5_2">
-											<div class="panel-body">
-												Gyülekezetünk alapítványi színekben <b>szeptember 17-én</b>, szombaton kivonul a pünkösdfürdői gátra, hogy megünnepeljük mi is a
-												<b>IX. Civil és Nemzetiségi Nap</b>ot. Standunknál <b>10 és 17 óra között</b> megismerkedhetsz Velünk, valamint popcornnal és játékos feladatokkal is várunk minden kedves érdeklődőt. Alapítványunk honlapját
-												az <u><a href="https://kima.hu/">ide kattintva</a></u> tudod elérni.<br> Programunk a következőképpen alakul (minden program kb. 15-30 percig tart): <br>
-												<ul>
-													<li>Minden egész órakor sorverseny és zsírkő formázás</li>
-													<li>Minden óra 15-kor arcfestés, hajfonás</li>
-													<li>Minden óra 30-kor nemezelés és missziós történet gyerekeknek</li>
-													<li>Minden óra 45-kor mutogatós énekek gyerekeknek </li>
-													<li>14-15 óra között valamikor a színpadon is bemutatkozunk</li>
-												</ul>
-											</div>
-										</div>
-									</div>
-									<div class="panel panel-default">
-										<div class="panel-heading" role="tab" id="heading5_1" data-toggle="collapse" data-parent="#accordion" href="#collapse5_1" aria-expanded="false" aria-controls="collapse5_1">
-											<h4 class="panel-title"><i class="fa fa-plus"></i>
-												Soproni hajtányozás (2016. szeptember 9-10.)
-											</h4>
-										</div>
-										<div id="collapse5_1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading5_1">
-											<div class="panel-body">
-												Gyülekezetünk <b>Sopron</b>ba megy <b>szeptember 9-10-én</b>, hogy eltöltsön ott egy emlékezetes hétvégét. Tervben van hajtányozás, kirándulás és egyéb érdekes dolgok. Akit érdekel, a levelező listán
-												megtalál több információt az utazással, szállással, programokkal kapcsolatban, illetve a következő gomb alatt található pdf-ben :) <br><br>
-												<button type="submit" class="btn btn-sm btn-info btn-lg" onclick="window.open('assets/media/Sopron_környéki_kirándulás_programok_2016.pdf')">
-													<i class="fa fa-download"></i> Programok  letöltése pdf-ben
-												</button>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div> -->
 	</div>
 </div>
 <!-- Hirdetések vége -->
