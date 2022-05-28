@@ -17,8 +17,7 @@
                         <h4 class="footer-title">Friss hírek <span class="title-under"></span></h4>
                         <div class="footer-content">
                             <ul class="tweets list-unstyled">
-                                <li class="tweet"><a href="/#hirdetesek">Online Istentisztelet!!</a></li>
-                                <li class="tweet"><a href="/#hirdetesek">Ünnepi köszöntő!</a></li>
+                                <li class="tweet"><b><a href="/#hirdetesek">Kattints ide!</a></b></li>
                             </ul>
                             <br>
                         </div>

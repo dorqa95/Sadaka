@@ -109,14 +109,15 @@ include 'header.php'; ?>
 					<h3 class="col-title">Friss és ropogós</h3>
 					<div class="col-details">
 						<p>
-							<br><strong>Hirdetés: </strong> <i><a href="#hir1"> <br> Pünkösdi Csendeshétvége Vajtán</a></i>
-							<br><strong>Hirdetés: </strong> <i><a href="#hir2"> <br> Golgota Férfi Hétvége Vajtán</a></i>
-							<!--<br><strong>Hanganyag: </strong> <i><a href="#hangok"> Vasárnapi IT</a></i>-->
-							<!--<br><strong>Képek: </strong> <i><a href="" data-toggle="modal" data-target="#csh20170603"> Tavaszi CSH 2017</a></i>-->
+							<br><strong>Hirdetés: </strong> 
+							<br><i><a href="#hir1"> Pünkösdi Csendeshétvége Vajtán</a></i>
+							<br><i><a href="#hir2"> Jún. 5-én az Istentisztelet elmarad</a></i><br>
+							<!--<br><strong>Hanganyag: </strong> <i><a href="#hangok"> Vasárnapi IT</a></i> -->
+							<!--<br><strong>Képek: </strong> <i><a href="" data-toggle="modal" data-target="#csh20170603"> Tavaszi CSH 2017</a></i> -->
 							<a href="#media">
 								<i>
 									<br>
-									<br>További érdekes anyagokat ide kattintva találsz.
+									<br>Média anyagokat ide kattintva találsz.
 									<br>
 								</i>
 							</a>
@@ -138,32 +139,30 @@ include 'header.php'; ?>
 			</div>
 			<div class="panel-body">
 				A 2022. évi Pünkösdi Csendeshétvégét Vajtán tartjuk június 3 (péntek) - június 6. (hétfő) között.<br>
-				Jelentkezési határidő: május 22.<br>
+				A jelentkezés lezárult.<br>
 				<ul>
 					<li><a target="blank" href="https://docs.google.com/document/d/1GbyWDW5AD9aO4t8pLI0DEn6N4IZPU9UlGte8XkN1PH4/edit?usp=sharing">További információk</a></li>
-					<li><a target="blank" href="https://docs.google.com/forms/d/1iingwukpxe6bI9uKdrS-JMu4eIj_bv-IxnAsg1-PaHc/edit?usp=sharing">Jelentkezési lap</a></li>
 					<li><a target="blank" href="https://docs.google.com/document/d/1xK6wssBQxeAy8Z1QZcnsG6PF-GNLyMly/edit?usp=sharing&ouid=117398403430155988672&rtpof=true&sd=true">Vajta házirend</a></li>
 				</ul>
 				==========================<br>
 				We plan the Church Retreat in 2022. on the Pentecostal Holiday between 3th June - 6th June at Vajta.<br>
-				Registration deadline: 22th May.<br>
+				The application is closed.<br>
 				<ul>
 					<li><a target="blank" href="https://docs.google.com/document/d/1GbyWDW5AD9aO4t8pLI0DEn6N4IZPU9UlGte8XkN1PH4/edit?usp=sharing">For more information</a></li>
-					<li><a target="blank" href="https://docs.google.com/forms/d/1iingwukpxe6bI9uKdrS-JMu4eIj_bv-IxnAsg1-PaHc/edit?usp=sharing">Registration form</a></li>
 				</ul>
 			</div>
 		</div>
 		<div class="panel panel-primary" id="hir2">
 			<div class="panel-heading">
-				<h3 class="panel-title">Golgota Férfi Hétvége Vajtán - MEGTELT</h3>
+				<h3 class="panel-title">Június 5-én az Istentisztelet elmarad</h3>
 			</div>
 			<div class="panel-body">
-				Országos Golgota konferencia lesz Vajtán, "Fordulat" címmel 2022. május 6-8. között.
+				Június 5-én Gyülekezetün Vajtán táborozik, az Istentisztelet elmarad.
 				<br>
-				<ul>
+				<!-- <ul>
 					<li><a target="blank" href="https://www.facebook.com/events/s/fordulat-ferfi-konferencia/1122024325216526/">További információk</a></li>
 					<li><a target="blank" href="https://docs.google.com/forms/d/e/1FAIpQLScaY6hbSQyeld4aRsN0807e9Ei9mkX8xrYK8c2Di6kChgt-qQ/viewform?fbclid=IwAR1JvRmK5bZHaWzHCe4qHatCzprDkfJjKGIjUrPbZvwiTMMU3l4HxmJ9Fu0">Jelentkezési lap</a></li>
-				</ul>
+				</ul> -->
 			</div>
 		</div>
 		<!--div class="panel panel-primary">
@@ -406,11 +405,11 @@ include 'header.php'; ?>
 						<div class="panel-body">
 							<div class="col-lg-4">
 								<ul>
-									<li><a target="blank" href="http://baja.golgota.hu/">Baja</a></li>
+									<li><a target="blank" href="http://bajaigolgota.hu/">Baja</a></li>
 									<li><i>Budapest, Békásmegyer</i></li>
 									<li><a target="blank" href="http://golgotabudapest.hu/">Budapest, Erzsébet körút</a></li>
 									<li><a target="blank" href="http://delpest.golgota.hu/">Budapest, Dél-Pest</a></li>
-									<li><a target="blank" href="http://www.golgotabudapest.hu/hu/helyszinek/xi-keruelet.html">Budapest, Újbuda</a></li>
+									<li><a target="blank" href="https://www.golgota11.hu/">Budapest, Újbuda</a></li>
 									<li><a target="blank" href="http://debrecen.golgota.hu/">Debrecen</a></li>
 									<li><a target="blank" href="http://dunaujvaros.golgota.hu/">Dunaújváros</a></li>
 									<li><a target="blank" href="http://eger.golgota.hu/">Eger</a></li>
@@ -421,25 +420,26 @@ include 'header.php'; ?>
 								<ul>
 									<li><a target="blank" href="http://www.golgotagardony.hu/">Gárdony</a></li>
 									<li><a target="blank" href="https://golgotagyor.hu/">Győr</a></li>
-									<li><a target="blank" href="http://kaposvar.golgota.hu/">Kaposvár</a></li>
-									<li><a target="blank" href="https://kecskemet.golgota.hu/index.php/hu/">Kecskemét</a></li>
+									<li><a target="blank" href="https://www.facebook.com/Golgota-Kereszt%C3%A9ny-Gy%C3%BClekezet-Kaposv%C3%A1r-141878869335608/">Kaposvár</a></li>
+									<li><a target="blank" href="http://kecskemet.golgota.hu/">Kecskemét</a></li>
+									<li><a target="blank" href="https://www.facebook.com/GolgotaKeszthely/">Keszthely</a></li>
+									<li><a target="blank" href="https://golgotakistarcsa.hu/">Kistarcsa</a></li>
 									<li><a target="blank" href="http://www.halado.hu/">Miskolc</a></li>
 									<li><a target="blank" href="http://nyiregyhaza.golgota.hu/">Nyíregyháza</a></li>
-									<li><a target="blank" href="http://golgotapecs.hu/">Pécs</a></li>
-									<li>Sárbogárd</li>
-									<li><a target="blank" href="http://sopron.golgota.hu/">Sopron</a></li>
 								</ul>
 							</div>
 							<div class="col-lg-4">
 								<ul>
+									<li><a target="blank" href="http://golgotapecs.hu/">Pécs</a></li>
+									<li><i>Sárbogárd</i></li>
+									<!-- <li><a target="blank" href="http://sopron.golgota.hu/">Sopron</a></li> -->
 									<li><a target="blank" href="http://golgotaszeged.hu/">Szeged</a></li>
-									<li><a target="blank" href="http://golgotaszekesfehervar.blogspot.com/">Székesfehérvár</a></li>
 									<li><a target="blank" href="http://szolnok.golgota.hu/">Szolnok</a></li>
-									<li>Szombathely</li>
-									<li><a target="blank" href="http://tatabanya.golgota.hu/">Tatabánya</a></li>
-									<li>Tompa</li>
-									<li><a target="blank" href="http://vac.golgota.hu/">Vác</a></li>
-									<li><a target="blank" href="http://vese.golgota.hu/">Vése</a></li>
+									<!-- <li><i>Szombathely</i></li> -->
+									<li><a target="blank" href="https://www.facebook.com/golgotatatabanya/">Tatabánya</a></li>
+									<li><a target="blank" href="https://www.facebook.com/GolgotaTompa/">Tompa</a></li>
+									<li><a target="blank" href="https://www.kegy.hu/">Törökbálint</a></li>
+									<li><a target="blank" href="https://golgotavac.hu/">Vác</a></li>
 								</ul>
 							</div>
 						</div>
@@ -679,28 +679,39 @@ include 'header.php'; ?>
 
 						<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#csh20170603"><img src="assets/images/TavasziCSH2017/DSC_030_thumb.png" style="max-height: 70px;" alt=""><br>Tavaszi CSH 2017</button>
 					</div>
+					
 					<div role="tabpanel" class="tab-pane active" id="hangok">
 						<p id="hang1">
 						
 						</p>
-						<div class="visible-xs visible-sm">
+						
+						<!-- <div class="visible-xs visible-sm">
 							<iframe width="320" height="180" src="https://www.youtube.com/embed/videoseries?list=PLWBVinGs0l4kHpALpr9TViY-W_JcBMQ5z&rel=0&enablejsapi=1&modestbranding=1&disablekb=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-						</div>
-						<div class="hidden-xs hidden-sm">
-							<iframe width="853" height="480" src="https://www.youtube.com/embed/videoseries?list=PLWBVinGs0l4kHpALpr9TViY-W_JcBMQ5z&rel=0&enablejsapi=1&modestbranding=1&disablekb=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-						</div>
+						</div> -->
+						
 						<p>
 							<br>
-							Vagy Youtube-on meghallgathatók a felvételek
+							A legfrissebb hangfelvételek meghallgathatók
+							<a href="https://drive.google.com/drive/folders/11L1mWnGG39czfEnwr2olUqWjs1LW3TQz?usp=sharing"><b>ide kattintva</b></a>!
+							<br>
+							Korábbi felvételek feltöltése folyamatban...
+						</p>
+						
+						<!-- <div class="hidden-xs hidden-sm"> --> <!-- Youtube kép -->
+						<!--	<iframe width="853" height="480" src="https://www.youtube.com/embed/videoseries?list=PLWBVinGs0l4kHpALpr9TViY-W_JcBMQ5z&rel=0&enablejsapi=1&modestbranding=1&disablekb=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						</div> -->
+						<p>
+							A 2021. előtti felvételek meghallgathatók a Youtube-on
 							<a href="https://www.youtube.com/playlist?list=PLWBVinGs0l4kHpALpr9TViY-W_JcBMQ5z" target="_blank"><b>ide kattintva</b></a>!
 							<br>
-							További felvételek feltöltése folyamatban...
+							<!-- További felvételek feltöltése folyamatban... -->
 						</p>
-						<!--div id="hang1" class="oszlopbal col-md-4 col-sm-12">
+						
+						<!-- <div id="hang1" class="oszlopbal col-md-4 col-sm-12">
 							
 							<div class="none-break">
-								<p class="audio-text"><b>Márkus Szilárd 2019.05.19.</b>
-									<br>2Tim 1:8-14 Mit teszel mikor Jézus neveden szólít?</p> <img class="swap-audio" src="https://bekas.golgota.hu/assets/images/tanitasok/img.png" alt="MarkusSzilard20190519"/>
+								<p class="audio-text"><b>Harold Golden 2022.05.22.</b>
+									<br>1Moz. 12,1-17,21</p> <img class="swap-audio" src="https://bekas.golgota.hu/assets/images/tanitasok/img.png" alt="https://drive.google.com/drive/folders/1Ii3dTxYZTMs5v_CLMvUWb9OvAG2mPrF_"/>
 								<hr>
 							</div>
 							
@@ -736,17 +747,18 @@ include 'header.php'; ?>
 							
 							<br>
 						</div>
-
 						<button type="button" class="btn btn-info btn-lg" style="margin-top: 0; margin-bottom: 17px;" onclick="window.open('felvetelek.php')">
 							Korábbi felvételek
-						</button-->
+						</button> -->
 					</div>
+					
 					<div role="tabpanel" class="tab-pane" id="enek">
-						<p>Az Énekeskönyv letöltéséhez kattints a Letöltés gombra!</p>
-						<button type="submit" class="btn btn-sm btn-info btn-lg" onclick="window.open('assets/media/Énekeskönyv_2020.pdf')">
+						<!-- <p>Az Énekeskönyv letöltéséhez kattints a Letöltés gombra!</p>
+							<button type="submit" class="btn btn-sm btn-info btn-lg" onclick="window.open('assets/media/Énekeskönyv_2020.pdf')">
 							<i class="fa fa-download"></i> Letöltés
-						</button>
-						<p><br>A vetítőszolgálat oldalát <u><i><a href="https://vetitomagus.hu" target="_blank">itt találod</a></i></u>.</p><br>
+						</button> -->
+						<p><br>Az énekeskönyvet <b><a href="https://drive.google.com/drive/folders/1IcwSnxcPTjH3Rdvl6PIUGcatm0KNP_by?usp=sharing" target="_blank">itt találod</a></b>.</p>
+						<p><br>A vetítőszolgálat oldalát <b><a href="https://vetitomagus.hu" target="_blank">itt találod</a></b>.</p><br>
 					</div>
 				</div>
 			</div>

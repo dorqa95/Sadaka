@@ -116,7 +116,7 @@
                             <li><a href="/#gyuli">Rólunk</a>
                                 <ul class="submenu">
                                     <li class="submenu-item"><a href="/#gyuli" id="a_gyuli">Gyülekezetünk</a></li>
-                                    <li class="submenu-item"><a href="/#alkalom">Alkalmunk</a></li>
+                                    <li class="submenu-item"><a href="/#alkalom">Alkalmaink</a></li>
                                     <li class="submenu-item"><a href="/#golgota" id="a_heading">Hitvallásunk</a></li>
                                     <li class="submenu-item"><a href="/#cim">Címünk</a></li>
                                 </ul>
