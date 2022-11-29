@@ -188,6 +188,10 @@ a:hover, a:focus, a:active {
     color: #fff;
 }
 
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}
+
 
 /* home/ about-us ================================= */
 
@@ -574,8 +578,8 @@ form .alert {
 }
 
 @media (max-width: 1200px) {
-	.g-recaptcha {	
-		padding-left: 0;	
+	.g-recaptcha {
+		padding-left: 0;
 	}
 }
 

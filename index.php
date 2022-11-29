@@ -11,7 +11,7 @@ include 'header.php'; ?>
 	</ol>
 	<div class="carousel-inner" role="listbox">
 		<div class="item active">
-			<img src="assets/images/slider/0.jpg" alt="">
+			<img src="assets/images/slider/01.jpg" alt="">
 			<div class="container">
 				<div class="carousel-caption">
 					<h2 class="carousel-title bounceInDown animated slow">Istentisztelet minden vasárnap 10 órától</h2>
@@ -23,7 +23,7 @@ include 'header.php'; ?>
 		</div>
 		<!-- /.item -->
 		<div class="item ">
-			<img src="assets/images/slider/3.jpg" alt="">
+			<img src="assets/images/slider/03.jpg" alt="">
 			<div class="container">
 				<div class="carousel-caption">
 					<h2 class="carousel-title bounceInDown animated slow">Istentisztelet minden vasárnap 10 órától</h2>
@@ -110,8 +110,8 @@ include 'header.php'; ?>
 					<div class="col-details">
 						<p>
 							<br><strong>Hirdetés: </strong> 
-							<br><i><a href="#hir1"> Pünkösdi Csendeshétvége Vajtán</a></i>
-							<br><i><a href="#hir2"> Jún. 5-én az Istentisztelet elmarad</a></i><br>
+							<!--<br><i><a href="#hir1"> Pünkösdi Csendeshétvége Vajtán</a></i> -->
+							<!--<br><i><a href="#hir2"> Jún. 5-én az Istentisztelet elmarad</a></i><br> -->
 							<!--<br><strong>Hanganyag: </strong> <i><a href="#hangok"> Vasárnapi IT</a></i> -->
 							<!--<br><strong>Képek: </strong> <i><a href="" data-toggle="modal" data-target="#csh20170603"> Tavaszi CSH 2017</a></i> -->
 							<a href="#media">
@@ -133,7 +133,7 @@ include 'header.php'; ?>
 <div class="section-home our-causes animate-onscroll fadeIn">
 	<div class="container" id="hirdetesek">
 		<h2 class="title-style-1">Hirdetések <span class="title-under"></span></h2>
-		<div class="panel panel-primary" id="hir1">
+		<!-- <div class="panel panel-primary" id="hir1">
 			<div class="panel-heading">
 				<h3 class="panel-title">Pünkösdi Csendeshétvége Vajtán</h3>
 			</div>
@@ -143,16 +143,18 @@ include 'header.php'; ?>
 				<ul>
 					<li><a target="blank" href="https://docs.google.com/document/d/1GbyWDW5AD9aO4t8pLI0DEn6N4IZPU9UlGte8XkN1PH4/edit?usp=sharing">További információk</a></li>
 					<li><a target="blank" href="https://docs.google.com/document/d/1xK6wssBQxeAy8Z1QZcnsG6PF-GNLyMly/edit?usp=sharing&ouid=117398403430155988672&rtpof=true&sd=true">Vajta házirend</a></li>
+					<li><a target="blank" href="https://docs.google.com/spreadsheets/d/1ehRDFDJR62E0w56FVCHWyexP-PSFdurfZnyCPew8TsY/edit?usp=sharing">Napirend</a></li>
 				</ul>
 				==========================<br>
 				We plan the Church Retreat in 2022. on the Pentecostal Holiday between 3th June - 6th June at Vajta.<br>
 				The application is closed.<br>
 				<ul>
 					<li><a target="blank" href="https://docs.google.com/document/d/1GbyWDW5AD9aO4t8pLI0DEn6N4IZPU9UlGte8XkN1PH4/edit?usp=sharing">For more information</a></li>
+					<li><a target="blank" href="https://docs.google.com/spreadsheets/d/1ehRDFDJR62E0w56FVCHWyexP-PSFdurfZnyCPew8TsY/edit?usp=sharing">Schedule</a></li>
 				</ul>
 			</div>
-		</div>
-		<div class="panel panel-primary" id="hir2">
+		</div> -->
+		<!-- <div class="panel panel-primary" id="hir2">
 			<div class="panel-heading">
 				<h3 class="panel-title">Június 5-én az Istentisztelet elmarad</h3>
 			</div>
@@ -162,9 +164,9 @@ include 'header.php'; ?>
 				<!-- <ul>
 					<li><a target="blank" href="https://www.facebook.com/events/s/fordulat-ferfi-konferencia/1122024325216526/">További információk</a></li>
 					<li><a target="blank" href="https://docs.google.com/forms/d/e/1FAIpQLScaY6hbSQyeld4aRsN0807e9Ei9mkX8xrYK8c2Di6kChgt-qQ/viewform?fbclid=IwAR1JvRmK5bZHaWzHCe4qHatCzprDkfJjKGIjUrPbZvwiTMMU3l4HxmJ9Fu0">Jelentkezési lap</a></li>
-				</ul> -->
+				</ul>
 			</div>
-		</div>
+		</div> -->
 		<!--div class="panel panel-primary">
 			<div class="panel-heading">
 				<h3 class="panel-title">Új hír cím</h3>
