@@ -6,8 +6,8 @@
                     <div class="footer-col">
                         <h4 class="footer-title">Rólunk <span class="title-under"></span></h4>
                         <div class="footer-content">
-                            <p> Kedves Látogató! <br> Üdvözlünk a Békási Golgota Gyülekezet honlapján. Reméljük minden fontos információt megtalálsz honlapunkon, és ha még így is maradt kérdésed, bátran vedd fel velünk a kapcsolatot, akár üzenetben, de még
-                                jobb lenne, ha személyesen tudnánk találkozni Veled! :) <br> Címünk: 1039 Bp., Madzsar József utca 13.<br> Istentiszteletünk: minden vasárnap 10 órakkor
+                            <p> Kedves Látogató! <br> Üdvözlünk a Golgota Észak-Buda Gyülekezet honlapján. Reméljük minden fontos információt megtalálsz honlapunkon, és ha még így is maradt kérdésed, bátran vedd fel velünk a kapcsolatot, akár üzenetben, de még
+                                jobb lenne, ha személyesen tudnánk találkozni Veled! :) <br> Címünk: 1039 Bp., Madzsar József utca 13.<br> Istentiszteletünk: minden vasárnap 10 órakor
                             </p>
                         </div>
                     </div>
@@ -55,7 +55,7 @@
         </div>
         <div class="footer-bottom">
             
-            <div class="container text-right"> Békási Golgota © Minden jog fenntartva <?= date('Y') ?> - készítette
+            <div class="container text-right"> Golgota Észak-Buda © Minden jog fenntartva <?= date('Y') ?> - készítette
                 <i><a target="parent" href="mailto:dorqa95@gmail.com">&nbsp;Dóri</a></i>
             </div>
         </div>

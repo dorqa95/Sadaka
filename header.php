@@ -3,8 +3,8 @@
 
 <head>
     <meta charset="utf-8">
-    <link rel="icon" type="image/png" href="assets/images/logo_brand.png">
-    <title>Békási Golgota</title>
+    <link rel="icon" type="image/png" href="assets/images/logo_brand_2.png">
+    <title>Golgota Észak-Buda</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -95,7 +95,7 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="index.html" style="padding-top: 0; margin-top: 0;"><img src="assets/images/new_logo_final.png" width="350" alt=""></a>
+                        <a class="navbar-brand" href="index.html" style="padding-top: 0; margin-top: 0;"><img src="assets/images/new_logo_final_5.png" width="350" alt=""></a>
                     </div>
                     <div id="navbar" class="navbar-collapse collapse pull-right">
                         <ul class="nav navbar-nav">

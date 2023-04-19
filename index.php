@@ -110,8 +110,12 @@ include 'header.php'; ?>
 					<div class="col-details">
 						<p>
 							<br><strong>Hirdetés: </strong> 
-							<!--<br><i><a href="#hir1"> Pünkösdi Csendeshétvége Vajtán</a></i> -->
-							<!--<br><i><a href="#hir2"> Jún. 5-én az Istentisztelet elmarad</a></i><br> -->
+							<!-- <br><i><a href="#hir1"> Tea és szórólap osztás a Békásmegyeri Piacon</a></i> -->
+							<!-- <br><i><a href="#hir2"> December 25-én Karácsonyi Istentisztelet</a></i> -->
+							<!-- <br><i><a href="#hir11"> Január 1-én az Istentisztelet elmarad</a></i> -->
+							<br><i><a href="#hir21"> Pünkösdi Csendeshétvége Vajtán</a></i>
+							<br><i><a href="#hir22">Angol nyelvű napközis tábor</a></i>
+							<!--<br><i><a href="#hir29"> Jún. 5-én az Istentisztelet elmarad</a></i><br> -->
 							<!--<br><strong>Hanganyag: </strong> <i><a href="#hangok"> Vasárnapi IT</a></i> -->
 							<!--<br><strong>Képek: </strong> <i><a href="" data-toggle="modal" data-target="#csh20170603"> Tavaszi CSH 2017</a></i> -->
 							<a href="#media">
@@ -135,38 +139,71 @@ include 'header.php'; ?>
 		<h2 class="title-style-1">Hirdetések <span class="title-under"></span></h2>
 		<!-- <div class="panel panel-primary" id="hir1">
 			<div class="panel-heading">
-				<h3 class="panel-title">Pünkösdi Csendeshétvége Vajtán</h3>
+				<h2 class="panel-title">December 17-én tea és szórólap osztás a Békásmegyeri Piacon</h2>
 			</div>
 			<div class="panel-body">
-				A 2022. évi Pünkösdi Csendeshétvégét Vajtán tartjuk június 3 (péntek) - június 6. (hétfő) között.<br>
-				A jelentkezés lezárult.<br>
-				<ul>
-					<li><a target="blank" href="https://docs.google.com/document/d/1GbyWDW5AD9aO4t8pLI0DEn6N4IZPU9UlGte8XkN1PH4/edit?usp=sharing">További információk</a></li>
-					<li><a target="blank" href="https://docs.google.com/document/d/1xK6wssBQxeAy8Z1QZcnsG6PF-GNLyMly/edit?usp=sharing&ouid=117398403430155988672&rtpof=true&sd=true">Vajta házirend</a></li>
-					<li><a target="blank" href="https://docs.google.com/spreadsheets/d/1ehRDFDJR62E0w56FVCHWyexP-PSFdurfZnyCPew8TsY/edit?usp=sharing">Napirend</a></li>
-				</ul>
-				==========================<br>
-				We plan the Church Retreat in 2022. on the Pentecostal Holiday between 3th June - 6th June at Vajta.<br>
-				The application is closed.<br>
-				<ul>
-					<li><a target="blank" href="https://docs.google.com/document/d/1GbyWDW5AD9aO4t8pLI0DEn6N4IZPU9UlGte8XkN1PH4/edit?usp=sharing">For more information</a></li>
-					<li><a target="blank" href="https://docs.google.com/spreadsheets/d/1ehRDFDJR62E0w56FVCHWyexP-PSFdurfZnyCPew8TsY/edit?usp=sharing">Schedule</a></li>
-				</ul>
+				December 17-én 9 órától a Heltai Jenő téren, a Békásmegyeri Piacon tea és Karácsonyi Istentiszteletre meghívót osztogatunk. Minden kedves érdeklődőt várunk egy rövid, tartalmas beszélgetésre.
 			</div>
 		</div> -->
 		<!-- <div class="panel panel-primary" id="hir2">
 			<div class="panel-heading">
-				<h3 class="panel-title">Június 5-én az Istentisztelet elmarad</h3>
+				<h2 class="panel-title">December 25-én 10 órától Karácsonyi Istentisztelet</h2>
+			</div>
+			<div class="panel-body">
+				December 25-én 10 órától tartjuk Karácsonyi Istentiszteletünket, melyen Jézus Krisztus születését ünnepeljük. Minden kedves érdeklődőt szeretettel várunk!
+			</div>
+		</div> -->
+		<!-- <div class="panel panel-primary" id="hir11">
+			<div class="panel-heading">
+				<h2 class="panel-title">Január 1-én az Istentisztelet elmarad</h2>
+			</div>
+			<div class="panel-body">
+				Január 1-én, Újév napján az Istentisztelet elmarad.
+			</div>
+		</div> -->
+		<div class="panel panel-primary" id="hir21">
+			<div class="panel-heading">
+				<h2 class="panel-title">Pünkösdi Csendeshétvége Vajtán</h2>
+			</div>
+			<div class="panel-body">
+				A 2023. évi Pünkösdi Csendeshétvégét Vajtán tartjuk május 26. (péntek) - május 29. (hétfő) között.<br>
+				<!-- A jelentkezés lezárult.<br> -->
+				<ul>
+					<li><a target="blank" href="https://drive.google.com/drive/folders/1J2SR9TTFtRBhDbwr0lMGFJ44T_uQcFt0?usp=sharing">További információk</a></li>
+				</ul>
+				==========================<br>
+				We plan the Church Retreat in 2023. on the Pentecostal Holiday between 26th Maj - 29th May at Vajta.<br>
+				<!-- The application is closed.<br> -->
+				<ul>
+					<li><a target="blank" href="https://drive.google.com/drive/folders/1J2SR9TTFtRBhDbwr0lMGFJ44T_uQcFt0?usp=sharing">For more information</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="panel panel-primary" id="hir22">
+			<div class="panel-heading">
+				<h2 class="panel-title">Angol nyelvű napközis tábor</h2>
+			</div>
+			<div class="panel-body">
+				2023. június 26-30. között Békásmegyeren, a Zipernowszky Károly Általános Iskolában napközis tábor lesz a Young Life Hungary szervezésében.<br>
+				<!-- A jelentkezés lezárult.<br> -->
+				<ul>
+					<li><a target="blank" href="https://drive.google.com/drive/folders/1-w1uNyk3gN8N8OtDpyZUpOeSDsasquQ6?usp=sharing">További információk</a></li>
+				</ul>
+			</div>
+		</div>
+		<!--<div class="panel panel-primary" id="hir29">
+			<div class="panel-heading">
+				<h2 class="panel-title">Június 5-én az Istentisztelet elmarad</h2>
 			</div>
 			<div class="panel-body">
 				Június 5-én Gyülekezetün Vajtán táborozik, az Istentisztelet elmarad.
 				<br>
-				<!-- <ul>
+				<ul>
 					<li><a target="blank" href="https://www.facebook.com/events/s/fordulat-ferfi-konferencia/1122024325216526/">További információk</a></li>
 					<li><a target="blank" href="https://docs.google.com/forms/d/e/1FAIpQLScaY6hbSQyeld4aRsN0807e9Ei9mkX8xrYK8c2Di6kChgt-qQ/viewform?fbclid=IwAR1JvRmK5bZHaWzHCe4qHatCzprDkfJjKGIjUrPbZvwiTMMU3l4HxmJ9Fu0">Jelentkezési lap</a></li>
 				</ul>
 			</div>
-		</div> -->
+        </div>-->
 		<!--div class="panel panel-primary">
 			<div class="panel-heading">
 				<h3 class="panel-title">Új hír cím</h3>
@@ -268,11 +305,11 @@ include 'header.php'; ?>
 					</div>
 					<div id="collapse1_5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading1_5">
 						<div class="panel-body">
-							<div class="col-lg-4">
+							<!--<div class="col-lg-4">
 								<div class="text-center">
 									<img class="img-circle" src="assets/images/Csati.png" alt="Csatlós Gábor" width="140" height="140">
 									<h4>Csatlós Gábor</h4>
-								</div>
+								</div> -->
 							</div>
 							<div class="col-lg-4">
 								<div class="text-center">
@@ -372,8 +409,8 @@ include 'header.php'; ?>
 								A Golgota Gyülekezet az amerikai eredetű Calvary Chapel magyarországi gyülekezete.
 								Magyarországon 1991 óta működő protestáns felekezet. Bejegyzett egyházként 1994 óta működik.
 								Hazánkban több gyülekezete is van. Igehirdetéseken a fő alapelvünk, hogy a Bibliát
-								versről-versre tanítjuk. Az egyház számos keresztény misszióban vesz részt, Vajtán saját
-								Bibliaiskolát tart fenn. Gyülekezeteink ma már megtalálhatóak az ország legtöbb nagy
+								versről-versre tanítjuk. Az egyház számos keresztény misszióban vesz részt.
+								Gyülekezeteink ma már megtalálhatóak az ország legtöbb nagy
 								városában, számos településen jelenleg is zajlik új közösségek elindítása.
 							</p>
 						</div>
@@ -392,7 +429,6 @@ include 'header.php'; ?>
 								<li><a target="blank" href="http://www.golgotabudapest.hu/tortenetunk/magyarorszagon/">Golgota Gyülekezet Magyarországon</a></li>
 								<li><a target="blank" href="http://hu.wikipedia.org/wiki/Golgota_Kereszt%C3%A9ny_Gy%C3%BClekezet">Wikipédia szócikk</a></li>
 								<li><a target="blank" href="http://vattee.googlepages.com/ggys">A Golgota gyülekezetek sajátosságai</a></li>
-								<li><a target="blank" href="http://gtf.ccbce.com/">Golgota Teológiai Főiskola</a></li>
 							</ul>
 						</div>
 					</div>
