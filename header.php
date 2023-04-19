@@ -25,6 +25,7 @@
     <!-- Bootstrap image gallery -->
     <link rel="stylesheet" href="assets/css/bootstrap-image-gallery.min.css">
     
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
     <!-- jQuery -->
     <script src="assets/js/jquery-3.6.4.min.js"></script>
 

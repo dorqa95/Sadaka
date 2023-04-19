@@ -562,7 +562,6 @@ a:hover, a:focus, a:active {
 /* contact ================================= */
 
 .contact-map {
-    position: fixed;
     height: 350px;
     width: 60%;
     left: 20%;
