@@ -26,7 +26,7 @@
     <link rel="stylesheet" href="assets/css/bootstrap-image-gallery.min.css">
     
     <!-- jQuery -->
-    <script src="assets/js/jquery-1.11.1.min.js"></script>
+    <script src="assets/js/jquery-3.6.4.min.js"></script>
 
     <?php
     if (basename($_SERVER['PHP_SELF']) === 'index.php') : ?>
